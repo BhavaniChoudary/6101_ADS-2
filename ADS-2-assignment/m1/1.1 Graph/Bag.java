@@ -20,13 +20,30 @@ import java.util.NoSuchElementException;
  *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  */
+/**
+ * Class for bag.
+ *
+ * @param      <Item>  The item
+ */
 public class Bag<Item> implements Iterable<Item> {
+    /**
+     * N var_description.
+     */
     private int N;         // number of elements in bag
+    /**
+     * first var_description.
+     */
     private Node first;    // beginning of bag
 
     // helper linked list class
-    private class Node {
+        private class Node {
+        /**
+         * item var_description.
+         */
         private Item item;
+        /**
+         * next var_description.
+         */
         private Node next;
     }
 
