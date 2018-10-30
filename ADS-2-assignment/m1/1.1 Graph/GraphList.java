@@ -111,7 +111,7 @@ public class GraphList implements Graph {
         return adj[v];
     }
     /**
-     * degree function_description.
+     * returns degree.
      *
      * @param      v     { parameter_description }
      *
@@ -121,7 +121,13 @@ public class GraphList implements Graph {
         validateVertex(v);
         return adj[v].size();
     }
-
+    /**
+     * display.
+     *
+     * @param      data  The data
+     *
+     * @return     { description_of_the_return_value }
+     */
     public String display(final String[] data) {
         StringBuilder s = new StringBuilder();
         s.append(v1 + " vertices, " + e1 + " edges" + NEWLINE);

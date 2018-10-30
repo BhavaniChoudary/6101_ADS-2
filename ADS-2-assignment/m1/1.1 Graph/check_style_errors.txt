@@ -31,9 +31,7 @@ Audit done.
 Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:125:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'display' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'display' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:125:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
