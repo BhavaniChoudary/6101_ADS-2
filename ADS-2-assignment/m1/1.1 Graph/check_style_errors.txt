@@ -31,27 +31,9 @@ Audit done.
 Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:19:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'v1' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'v1' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:19:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:22:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'e1' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'e1' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:22:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:25:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:33:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'addEdge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'addEdge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:33:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:39:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'hasEdge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'hasEdge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:39:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:59:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'adj' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'adj' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:59:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:64:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'degree' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'degree' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:64:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:69:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'display' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'display' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:69:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:125:5: Class 'GraphList' looks like designed for extension (can be subclassed), but the method 'display' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'GraphList' final or making the method 'display' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\GraphList.java:125:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.
