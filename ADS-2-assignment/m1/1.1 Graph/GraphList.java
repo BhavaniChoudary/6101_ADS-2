@@ -1,6 +1,9 @@
+/**
+ * List of graphs.
+ */
 public class GraphList implements Graph {
     /**
-     * nEWLINE var_description.
+     * NEWLINE var_description.
      */
     private static final String NEWLINE = System.getProperty("line.separator");
     /**
