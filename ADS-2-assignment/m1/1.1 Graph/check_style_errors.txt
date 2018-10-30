@@ -55,14 +55,5 @@ Audit done.
 Checkstyle ends with 21 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:9: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:10:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Solution.java:13:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 1 errors.

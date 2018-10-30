@@ -1,15 +1,60 @@
 import java.util.Scanner;
+/**
+ * Interface for graph.
+ */
 interface Graph {
+    /**
+     * v1 function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     int v1();
+    /**
+     * e1 function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     int e1();
+    /**
+     * Adds an edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     */
     void addEdge(int v, int w);
+    /**
+     * adjacent function_description.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     Iterable<Integer> adj(int v);
+    /**
+     * Determines if it has edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     True if has edge, False otherwise.
+     */
     boolean hasEdge(int v, int w);
 }
+/**
+ * class Solution.
+ */
 final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
+        //function.
     }
+    /**
+     * main function_description.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String type = sc.nextLine();
