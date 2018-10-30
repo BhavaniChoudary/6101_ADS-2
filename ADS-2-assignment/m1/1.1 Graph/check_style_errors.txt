@@ -1,29 +1,7 @@
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:13: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:17: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:32:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:39: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:61: Expected @return tag. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:68: Expected @return tag. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:75:21: Parameter item should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:75:26: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:87: Expected @return tag. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:88: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:92: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:93:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:95: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:95:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:96: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:96:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:98:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:99: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m1\1.1 Graph\Bag.java:101: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
