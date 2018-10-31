@@ -1,4 +1,10 @@
+/**
+ * Class for percolation.
+ */
 class Percolation {
+    /**
+     * uf var_description.
+     */
     private Graph uf;
     private int n;
     private int size, first, last, count;
