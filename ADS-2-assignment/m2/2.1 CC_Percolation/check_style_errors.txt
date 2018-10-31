@@ -1,0 +1,75 @@
+Starting audit...
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:2:8: Unused import - java.util.NoSuchElemenException. [UnusedImports]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:7:17: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:8:17: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:10:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:12:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:14:9: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:14:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:17:9: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:17:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:20:9: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'add' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'add' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:20:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:20:25: Parameter item should be final. [FinalParameters]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:20:35: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:27:9: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'iterator' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'iterator' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:27:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:30: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:31:17: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:32:17: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:35:17: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:36: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\bag.java:38:17: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 27 errors.
+Starting audit...
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:4:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:27:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'id' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'id' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:31:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:35:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'count' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'count' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:35:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:38:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'connected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'connected' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:43:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'areConnected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'areConnected' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:49:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 19 errors.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:2:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:4:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:19:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:22:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:59:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Percolation.java:62:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 12 errors.
+Starting audit...
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 3 errors.
