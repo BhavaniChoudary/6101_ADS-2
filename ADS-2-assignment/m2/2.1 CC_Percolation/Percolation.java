@@ -6,9 +6,23 @@ class Percolation {
      * uf var_description.
      */
     private Graph uf;
+    /**
+     * n var_description.
+     */
     private int n;
+    /**
+     * size, first, last, column var_descriptions.
+     */
     private int size, first, last, count;
+    /**
+     * var_description.
+     */
     private boolean[] connected;
+    /**
+     * Constructs the object.
+     *
+     * @param      n1    The n 1
+     */
     Percolation(final int n1) {
         this.n = n1;
         this.size = n1 * n1;
@@ -22,14 +36,34 @@ class Percolation {
             uf.addEdge(last, size - i - 1);
         }
     }
+    /**
+     * Searches for the first match.
+     *
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     private int indexOf(final int i, final int j) {
         return (n * (i - 1)) + (j - 1);
     }
+    /**
+     * Links open sites.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     */
     private void linkOpenSites(final int row, final int col) {
         if (connected[col] && !uf.hasEdge(row, col)) {
             uf.addEdge(row, col);
         }
     }
+    /**
+     * open function_description.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     */
     public void open(final int row, final int col) {
         int index = indexOf(row, col);
         connected[index] = true;
@@ -59,15 +93,33 @@ class Percolation {
         linkOpenSites(index, index + 1);
         linkOpenSites(index, index - 1);
     }
+    /**
+     * Determines if open.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     *
+     * @return     True if open, False otherwise.
+     */
     public boolean isOpen(final int row, final int col) {
         return connected[indexOf(row, col)];
     }
+    /**
+     * No.of open sites function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int numberOfOpenSites() {
         return count;
     }
+    /**
+     * percolates function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean percolates() {
         CC cc = new CC(uf);
         return cc.connected(first, last);
     }
-    }
+}
 
