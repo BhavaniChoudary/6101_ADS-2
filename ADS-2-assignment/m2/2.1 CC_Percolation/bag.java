@@ -30,7 +30,7 @@ public class Bag<Item> implements Iterable<Item> {
 	/**
 	 * n var_description.
 	 */
-	private int n;
+	private int n; // no.of elements in bag
 	/**
 	 * first var_description.
 	 */
