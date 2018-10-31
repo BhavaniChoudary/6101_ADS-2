@@ -68,8 +68,4 @@ Starting audit...
 Audit done.
 Checkstyle ends with 12 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 3 errors.
