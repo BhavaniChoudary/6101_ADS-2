@@ -30,20 +30,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 26 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:16:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:37:5: Class 'DirectedCycle' looks like designed for extension (can be subclassed), but the method 'hasCycle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DirectedCycle' final or making the method 'hasCycle' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:37:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:40:5: Class 'DirectedCycle' looks like designed for extension (can be subclassed), but the method 'cycle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DirectedCycle' final or making the method 'cycle' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:40:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\DirectedCycle.java:43:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.1 Directed Cycle\Solution.java:2: Missing a Javadoc comment. [JavadocType]
