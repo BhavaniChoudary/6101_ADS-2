@@ -1,9 +1,32 @@
+/**
+ * Class for digraph.
+ */
 public class Digraph {
+    /**
+     * class digraph.
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
+    /**
+     * vertices var_description.
+     */
     private final int ver;
+    /**
+     * edge var_description.
+     */
     private int edg;
+    /**
+     * adjacency list for vertex.
+     */
     private Bag<Integer>[] adj;
+    /**
+     * indegree of vertex.
+     */
     private int[] indegree;
+    /**
+     * Constructs the object.
+     *
+     * @param      ver1  The version 1
+     */
     public Digraph(final int ver1) {
         if (ver1 < 0) {
             throw new IllegalArgumentException(
@@ -17,6 +40,11 @@ public class Digraph {
             adj[v] = new Bag<Integer>();
         }
     }
+    /**
+     * Constructs the object.
+     *
+     * @param      g     { parameter_description }
+     */
     public Digraph(final Digraph g) {
         this(g.vertex());
         this.edg = g.edge();
@@ -33,13 +61,27 @@ public class Digraph {
             }
         }
     }
+    /**
+     * vertex count.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int vertex() {
         return ver;
     }
-
+    /**
+     * edge count.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int edge() {
         return edg;
     }
+    /**
+     * validate vertex.
+     *
+     * @param      v     { parameter_description }
+     */
     private void validateVertex(final int v) {
         if (v < 0 || v >= ver) {
             throw new IllegalArgumentException(
