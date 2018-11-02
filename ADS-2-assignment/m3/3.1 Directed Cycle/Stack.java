@@ -22,18 +22,39 @@ public class Stack<Item> implements Iterable<Item> {
          * item var_description.
          */
         private Item item;
+        /**
+         * next var_description.
+         */
         private Node next;
     }
+    /**
+     * Constructs the object.
+     */
     public Stack() {
         first = null;
         n = 0;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return first == null;
     }
+    /**
+     * size function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size() {
         return n;
     }
+    /**
+     * push to stack function_description.
+     *
+     * @param      item  The item
+     */
     public void push(final Item item) {
         Node oldfirst = first;
         first = new Node();
@@ -41,6 +62,11 @@ public class Stack<Item> implements Iterable<Item> {
         first.next = oldfirst;
         n++;
     }
+    /**
+     * pop to stack function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item pop() {
         if (isEmpty()) {
             throw new RuntimeException("Stack underflow");
