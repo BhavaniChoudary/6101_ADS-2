@@ -1,5 +1,5 @@
 /**
- * Class for connected components
+ * Class for connected components.
  */
 public class CC {
     /**
