@@ -3,20 +3,20 @@ import java.util.Scanner;
  * Solution class.
  */
 final class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		//function.
-	}
-	/**
-	 * main function_description.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		int numofvertices = Integer.parseInt(s.nextLine());
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //function.
+    }
+    /**
+     * main function_description.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner s = new Scanner(System.in);
+        int numofvertices = Integer.parseInt(s.nextLine());
         int numofedges = Integer.parseInt(s.nextLine());
         Digraph digraph = new Digraph(numofedges);
         while (s.hasNext()) {
@@ -30,7 +30,7 @@ final class Solution {
         } else {
             System.out.println("Cycle doesn't exists.");
         }
-	}
+    }
 }
 
 
