@@ -2,26 +2,20 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:17:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:27:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'id' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'id' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:27:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:31:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:31:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:35:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'count' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'count' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:35:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:38:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'connected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'connected' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:38:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:43:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'areConnected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'areConnected' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:43:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:49:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:1: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:53:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'id' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'id' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:57:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:57:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:61:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'count' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'count' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:64:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'connected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'connected' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:69:5: Class 'CC' looks like designed for extension (can be subclassed), but the method 'areConnected' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'CC' final or making the method 'areConnected' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:69:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m2\2.1 CC_Percolation\CC.java:75:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 13 errors.
 Starting audit...
 Audit done.
 Starting audit...

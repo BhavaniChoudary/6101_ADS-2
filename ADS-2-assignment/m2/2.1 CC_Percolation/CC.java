@@ -1,8 +1,28 @@
+/**
+ * Class for connected components
+ */
 public class CC {
+    /**
+     * marked var_description.
+     */
     private boolean[] marked;
+    /**
+     * id var_description.
+     */
     private int[] id;
+    /**
+     * size var_description.
+     */
     private int[] size;
+    /**
+     * count var_description.
+     */
     private int count;
+    /**
+     * Constructs the object.
+     *
+     * @param      graph  The graph
+     */
     public CC(final Graph graph) {
         marked = new boolean[graph.vertices()];
         id = new int[graph.vertices()];
@@ -14,6 +34,12 @@ public class CC {
             }
         }
     }
+    /**
+     * dfs function_description.
+     *
+     * @param      graph  The graph
+     * @param      v      { parameter_description }
+     */
     private void dfs(final Graph graph, final int v) {
         marked[v] = true;
         id[v] = count;
