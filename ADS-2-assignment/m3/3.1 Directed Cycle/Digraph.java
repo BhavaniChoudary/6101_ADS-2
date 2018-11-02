@@ -88,6 +88,12 @@ public class Digraph {
                 "vertex " + v + " is not between 0 and " + (ver - 1));
         }
     }
+    /**
+     * Adds an edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     */
     public void addEdge(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
@@ -95,18 +101,44 @@ public class Digraph {
         indegree[w]++;
         edg++;
     }
+    /**
+     * Iterator.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<Integer> adj(final int v) {
         validateVertex(v);
         return adj[v];
     }
+    /**
+     * outdegree.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int outdegree(final int v) {
         validateVertex(v);
         return adj[v].size();
     }
+    /**
+     * indegree.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int indegree(final int v) {
         validateVertex(v);
         return indegree[v];
     }
+    /**
+     * reverse the digraph.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Digraph reverse() {
         Digraph reverse = new Digraph(ver);
         for (int v = 0; v < ver; v++) {
@@ -116,6 +148,11 @@ public class Digraph {
         }
         return reverse;
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         StringBuilder s = new StringBuilder();
         s.append(ver + " vertices, " + edg + " edges " + NEWLINE);
