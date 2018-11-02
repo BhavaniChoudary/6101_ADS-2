@@ -19,7 +19,7 @@ public class CC {
      */
     private int count;
     /**
-     * Constructs the object.
+     * Computes the connected components.
      *
      * @param      graph  The graph
      */
@@ -35,7 +35,7 @@ public class CC {
         }
     }
     /**
-     * dfs function_description.
+     * dfs of graph.
      *
      * @param      graph  The graph
      * @param      v      { parameter_description }
@@ -50,28 +50,69 @@ public class CC {
             }
         }
     }
+    /**
+     * Returns the component id of the connected
+     * component containing vertex.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int id(final int v) {
         validateVertex(v);
         return id[v];
     }
+    /**
+     * size function_description.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size(final int v) {
         validateVertex(v);
         return size[id[v]];
     }
+    /**
+     * count function_description.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int count() {
         return count;
     }
+    /**
+     * returns true if vertices are in the same connected components.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean connected(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
         return id(v) == id(w);
     }
+    /**
+     * returns true is vertices are in the same connected components.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     @Deprecated
     public boolean areConnected(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
         return id(v) == id(w);
     }
+    /**
+     * function_description.
+     *
+     * @param      v     { parameter_description }
+     */
     private void validateVertex(final int v) {
         int vertices = marked.length;
         if (v < 0 || v >= vertices) {
@@ -80,3 +121,4 @@ public class CC {
         }
     }
 }
+
