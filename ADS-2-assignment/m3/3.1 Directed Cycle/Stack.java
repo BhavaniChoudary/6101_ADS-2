@@ -1,9 +1,26 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/**
+ * List of stack.
+ *
+ * @param      <Item>  The item
+ */
 public class Stack<Item> implements Iterable<Item> {
+    /**
+     * n size var_description.
+     */
     private int n;
+    /**
+     * top var_description.
+     */
     private Node first;
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * item var_description.
+         */
         private Item item;
         private Node next;
     }
