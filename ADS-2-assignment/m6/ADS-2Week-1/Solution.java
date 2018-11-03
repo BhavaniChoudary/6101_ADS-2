@@ -38,7 +38,7 @@ public class Solution {
                     Integer.parseInt(arra1[j]));
             }
             i++;
-        }   
+        }
         System.out.println(d.toString());
         //Create page rank object and pass the graph object to the constructor
         // print the page rank object
