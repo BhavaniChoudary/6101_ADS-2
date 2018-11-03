@@ -284,23 +284,12 @@ Starting audit...
 Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:6: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:17: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:29:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:36:40: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:29:29: Parameter args should be final. [FinalParameters]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:41: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:43: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:44: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:46: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:48: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:51: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:53: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:54: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Solution.java:59: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 4 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
