@@ -16,6 +16,12 @@ class WebSearch {
  */
 public class Solution {
 	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+        //function.
+    }
+	/**
 	 * main function_description.
 	 *
 	 * @param      args  The arguments
@@ -25,10 +31,11 @@ public class Solution {
 		int totalVertices = Integer.parseInt(sc.nextLine());
 		Digraph d = new Digraph(totalVertices);
 		int i = 0;
-		while(i < totalVertices) {
+		while (i < totalVertices) {
 			String[] arra1 = sc.nextLine().split(" ");
-			for(int j = 1;j < arra1.length; j++) {
-				d.addEdge(Integer.parseInt(arra1[0]), Integer.parseInt(arra1[j]));
+			for (int j = 1;j < arra1.length; j++) {
+				d.addEdge(Integer.parseInt(arra1[0]),
+					Integer.parseInt(arra1[j]));
 			}
 			i++;
 		}	
@@ -52,3 +59,4 @@ public class Solution {
 		
 	}
 }
+
