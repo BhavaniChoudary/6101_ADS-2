@@ -14,7 +14,7 @@ class WebSearch {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -26,7 +26,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int totalVertices = Integer.parseInt(sc.nextLine());
         Digraph d = new Digraph(totalVertices);
@@ -51,7 +51,6 @@ public class Solution {
         // remove the q= prefix and extract the search word
         // pass the word to iAmFeelingLucky method of web search
         // print the return value of iAmFeelingLucky
-        
     }
 }
 
