@@ -1,15 +1,25 @@
 import java.util.Scanner;
-
+/**
+ * Class for page rank.
+ */
 class PageRank {
 	
 }
-
+/**
+ * Class for web search.
+ */
 class WebSearch {
 
 }
-
-
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * main function_description.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int totalVertices = Integer.parseInt(sc.nextLine());
