@@ -1,16 +1,44 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/**
+ * Class for bag.
+ *
+ * @param      <Item>  The item
+ */
 public class Bag<Item> implements Iterable<Item> {
+    /**
+     * n var_description.
+     */
     private int n;
+    /**
+     * first var_description.
+     */
     private Node first;
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * item.
+         */
         private Item item;
+        /**
+         * next.
+         */
         private Node next;
     }
+    /**
+     * Constructs the object.
+     */
     public Bag() {
         first = null;
         n = 0;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return first == null;
     }
