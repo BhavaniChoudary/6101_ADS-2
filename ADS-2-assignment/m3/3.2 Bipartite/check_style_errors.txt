@@ -110,12 +110,9 @@ Audit done.
 Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:5:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:17:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Stack.java:3: Missing a Javadoc comment. [JavadocType]

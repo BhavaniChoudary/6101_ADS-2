@@ -1,7 +1,19 @@
 import java.util.Scanner;
+/**
+ * Solution class.
+ */
 public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
+        //function.
     }
+    /**
+     * main function_description.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int numofvertices = Integer.parseInt(s.nextLine());
