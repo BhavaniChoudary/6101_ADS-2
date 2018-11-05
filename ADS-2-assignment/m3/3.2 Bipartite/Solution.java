@@ -10,7 +10,7 @@ public final class Solution {
         while (s.hasNext()) {
             String[] tokens = s.nextLine().split(" ");
             graph.addEdge(Integer.parseInt(tokens[0]),
-                Integer.parseInt(tokens[0]));
+                Integer.parseInt(tokens[1]));
         }
         DirectedCycle dircycle = new DirectedCycle(graph);
         if (dircycle.isbipartite()) {
