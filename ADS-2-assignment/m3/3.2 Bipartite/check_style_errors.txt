@@ -4,33 +4,8 @@ Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:7:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:20:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:36:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'vertex' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'vertex' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:36:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:39:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'edge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'edge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:39:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:42:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:48:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'addEdge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'addEdge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:48:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:55:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'adj' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'adj' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:55:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:59:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'outdegree' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'outdegree' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:59:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:63:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'indegree' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'indegree' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:63:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:67:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'reverse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'reverse' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:67:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:76:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:76:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 26 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:2:5: Missing a Javadoc comment. [JavadocVariable]

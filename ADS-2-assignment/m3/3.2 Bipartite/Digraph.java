@@ -1,9 +1,32 @@
+/**
+ * Class for digraph.
+ */
 public class Digraph {
+    /**
+     * NEWLINE.
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
+    /**
+     * no.of vertices in the edge.
+     */
     private final int ver;
+    /**
+     * no.of edges.
+     */
     private int edgee;
+    /**
+     * adj var_description.
+     */
     private Bag<Integer>[] adj;
+    /**
+     * indegree var_description.
+     */
     private int[] indegree;
+    /**
+     * Constructs the object.
+     *
+     * @param      ver1  The version 1
+     */
     public Digraph(final int ver1) {
         if (ver1 < 0) {
             throw new IllegalArgumentException(
@@ -17,6 +40,11 @@ public class Digraph {
             adj[v] = new Bag<Integer>();
         }
     }
+    /**
+     * Constructs the object.
+     *
+     * @param      g     { parameter_description }
+     */
     public Digraph(final Digraph g) {
         this(g.vertex());
         this.edgee = g.edge();
@@ -33,18 +61,39 @@ public class Digraph {
             }
         }
     }
+    /**
+     * vertex.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int vertex() {
         return ver;
     }
+    /**
+     * edge.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int edge() {
         return edgee;
     }
+    /**
+     * validate vertex.
+     *
+     * @param      v     { parameter_description }
+     */
     private void validateVertex(final int v) {
         if (v < 0 || v >= ver) {
             throw new IllegalArgumentException(
                 "vertex " + v + " is not between 0 and " + (ver - 1));
         }
     }
+    /**
+     * Adds an edge.
+     *
+     * @param      v     { parameter_description }
+     * @param      w     { parameter_description }
+     */
     public void addEdge(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
@@ -52,18 +101,44 @@ public class Digraph {
         indegree[w]++;
         edgee++;
     }
+    /**
+     * iterator.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<Integer> adj(final int v) {
         validateVertex(v);
         return adj[v];
     }
+    /**
+     * outdegree.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int outdegree(final int v) {
         validateVertex(v);
         return adj[v].size();
     }
+    /**
+     * indegree.
+     *
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int indegree(final int v) {
         validateVertex(v);
         return indegree[v];
     }
+    /**
+     * returns the reverse of graph.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Digraph reverse() {
         Digraph reverse = new Digraph(ver);
         for (int v = 0; v < ver; v++) {
@@ -73,6 +148,11 @@ public class Digraph {
         }
         return reverse;
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         StringBuilder s = new StringBuilder();
         s.append(ver + " vertices, " + edgee + " edges " + NEWLINE);
