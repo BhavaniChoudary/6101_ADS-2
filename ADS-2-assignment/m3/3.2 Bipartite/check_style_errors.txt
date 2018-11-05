@@ -1,24 +1,14 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
+Starting audit...
+Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:1: Missing a Javadoc comment. [JavadocType]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Queue.java:1: Missing a Javadoc comment. [JavadocType]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Solution.java:17:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 1 errors.
-Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-Audit done.
-Checkstyle ends with 1 errors.

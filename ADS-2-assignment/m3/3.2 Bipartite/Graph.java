@@ -1,3 +1,6 @@
+/**
+ * Class for graph.
+ */
 public class Graph {
     /**
      * vertices var_description.

@@ -1,3 +1,8 @@
+/**
+ * List of Queue.
+ *
+ * @param      <Item>  The item
+ */
 public class Queue<Item> {
     /**
      * n var_description.
