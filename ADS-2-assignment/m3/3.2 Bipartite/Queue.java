@@ -47,13 +47,22 @@ public class Queue<Item> {
     public int size() {
         return n;
     }
+    /**
+     * peek.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item peek() {
         if (isEmpty()) {
             throw new RuntimeException("Queue underflow");
         }
         return first.item;
     }
-
+    /**
+     * enqueue.
+     *
+     * @param      item  The item
+     */
     public void enqueue(final Item item) {
         Node x = new Node();
         x.item = item;
@@ -66,6 +75,11 @@ public class Queue<Item> {
         }
         n++;
     }
+    /**
+     * dequeue.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item dequeue() {
         if (isEmpty()) {
             throw new RuntimeException(
