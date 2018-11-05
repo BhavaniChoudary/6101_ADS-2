@@ -1,22 +1,64 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
+/**
+ * List of Stack.
+ *
+ * @param      <Item>  The item
+ */
 public class Stack<Item> implements Iterable<Item> {
+    /**
+     * {size of the stack}.
+     */
     private int n;
+    /**
+     * {top of stack}.
+     */
     private Node first;
+
+    /**
+     * helper linked list class.
+     */
     private class Node {
+        /**
+         * {Item}.
+         */
         private Item item;
+        /**
+         * {Next of type node}.
+         */
         private Node next;
     }
+
+    /**
+     * Create an empty stack.
+     */
     public Stack() {
         first = null;
         n = 0;
     }
+
+    /**
+     * Is the stack empty?
+     * @return     {Boolean}.
+     */
     public boolean isEmpty() {
         return first == null;
     }
+
+    /**
+     * Return the number of items in the stack.
+     * @return     {Integer}.
+     */
     public int size() {
         return n;
     }
+
+    /**
+     * {Method to push into a stack}.
+     *
+     * @param      item  The item
+     */
     public void push(final Item item) {
         Node oldfirst = first;
         first = new Node();
@@ -24,6 +66,12 @@ public class Stack<Item> implements Iterable<Item> {
         first.next = oldfirst;
         n++;
     }
+
+    /**
+     * Delete and return the item most recently added to the stack.
+     * Throw an exception if no such item exists because the stack is empty.
+     * @return      {Item}
+     */
     public Item pop() {
         if (isEmpty()) {
             throw new RuntimeException("Stack underflow");
@@ -33,12 +81,22 @@ public class Stack<Item> implements Iterable<Item> {
         n--;
         return item;
     }
+    /**
+     * peek.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item peek() {
         if (isEmpty()) {
             throw new RuntimeException("Stack underflow");
         }
         return first.item;
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         StringBuilder s = new StringBuilder();
         for (Item item : this) {
@@ -46,17 +104,41 @@ public class Stack<Item> implements Iterable<Item> {
         }
         return s.toString();
     }
+    /**
+     * Iterator.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterator<Item> iterator() {
         return new ListIterator();
     }
+    /**
+     * Class for list iterator.
+     */
     private class ListIterator implements Iterator<Item> {
+        /**
+         * current node.
+         */
         private Node current = first;
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
             return current != null;
         }
+        /**
+         * remove.
+         */
         public void remove() {
             throw new UnsupportedOperationException();
         }
+        /**
+         * next.
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
             if (!hasNext()) {
                 throw new NoSuchElementException();
