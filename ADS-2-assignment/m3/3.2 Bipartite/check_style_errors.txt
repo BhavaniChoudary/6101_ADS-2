@@ -1,18 +1,7 @@
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:45:5: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:45:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:48:5: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'add' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'add' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:48:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:55:5: Class 'Bag' looks like designed for extension (can be subclassed), but the method 'iterator' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Bag' final or making the method 'iterator' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:55:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:58: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:59:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:60:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:63:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Bag.java:66:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Digraph.java:1: Missing a Javadoc comment. [JavadocType]

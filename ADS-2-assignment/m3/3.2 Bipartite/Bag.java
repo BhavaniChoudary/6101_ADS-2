@@ -42,9 +42,19 @@ public class Bag<Item> implements Iterable<Item> {
     public boolean isEmpty() {
         return first == null;
     }
+    /**
+     * size.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size() {
         return n;
     }
+    /**
+     * add.
+     *
+     * @param      item  The item
+     */
     public void add(final Item item) {
         Node oldfirst = first;
         first = new Node();
@@ -52,17 +62,41 @@ public class Bag<Item> implements Iterable<Item> {
         first.next = oldfirst;
         n++;
     }
+    /**
+     * iterator.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterator<Item> iterator()  {
         return new ListIterator();
     }
+    /**
+     * Class for list iterator.
+     */
     private class ListIterator implements Iterator<Item> {
+        /**
+         * gives current node.
+         */
         private Node current = first;
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
             return current != null;
         }
+        /**
+         * remove.
+         */
         public void remove() {
             throw new UnsupportedOperationException();
         }
+        /**
+         * next.
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
             if (!hasNext()) {
                 throw new NoSuchElementException();
