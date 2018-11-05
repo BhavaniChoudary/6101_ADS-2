@@ -1,9 +1,32 @@
+/**
+ * Class for directed cycle.
+ */
 public class DirectedCycle {
+    /**
+     * marked.
+     */
     private boolean[] marked;
+    /**
+     *  edgeTo.
+     */
     private int[] edgeTo;
+    /**
+     * onStack.
+     */
     private boolean[] onStack;
+    /**
+     * directed cycle.
+     */
     private Stack<Integer> cycle;
+    /**
+     * boolean.
+     */
     private boolean isbipartite = false;
+    /**
+     * Constructs the object.
+     *
+     * @param      g     { parameter_description }
+     */
     public DirectedCycle(final Graph g) {
         marked  = new boolean[g.vertex()];
         onStack = new boolean[g.vertex()];
@@ -14,6 +37,12 @@ public class DirectedCycle {
             }
         }
     }
+    /**
+     * dfs.
+     *
+     * @param      g     { parameter_description }
+     * @param      v     { parameter_description }
+     */
     private void dfs(final Graph g, final int v) {
         isbipartite = !isbipartite;
         onStack[v] = true;
@@ -36,12 +65,27 @@ public class DirectedCycle {
         }
         onStack[v] = false;
     }
+    /**
+     * Determines if it has cycle.
+     *
+     * @return     True if has cycle, False otherwise.
+     */
     public boolean hasCycle() {
         return cycle != null;
     }
+    /**
+     * Iterator.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<Integer> cycle() {
         return cycle;
     }
+    /**
+     * check.
+     *
+     * @return     { description_of_the_return_value }
+     */
     private boolean check() {
         if (hasCycle()) {
             int first = -1, last = -1;
@@ -59,6 +103,11 @@ public class DirectedCycle {
         }
         return true;
     }
+    /**
+     * bipartite.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean isbipartite() {
         return isbipartite;
     }

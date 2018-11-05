@@ -7,23 +7,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:7:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:17:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:39:5: Class 'DirectedCycle' looks like designed for extension (can be subclassed), but the method 'hasCycle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DirectedCycle' final or making the method 'hasCycle' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:39:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:42:5: Class 'DirectedCycle' looks like designed for extension (can be subclassed), but the method 'cycle' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DirectedCycle' final or making the method 'cycle' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:42:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:45:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:62:5: Class 'DirectedCycle' looks like designed for extension (can be subclassed), but the method 'isbipartite' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DirectedCycle' final or making the method 'isbipartite' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\DirectedCycle.java:62:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 15 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:1: Missing a Javadoc comment. [JavadocType]
