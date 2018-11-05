@@ -1,6 +1,5 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
 /**
  * List of Stack.
  *
@@ -8,28 +7,26 @@ import java.util.NoSuchElementException;
  */
 public class Stack<Item> implements Iterable<Item> {
     /**
-     * {size of the stack}.
+     * size of the stack n.
      */
     private int n;
     /**
-     * {top of stack}.
+     * top of stack.
      */
     private Node first;
-
     /**
-     * helper linked list class.
+     * Class for node.
      */
     private class Node {
         /**
-         * {Item}.
+         * Item.
          */
         private Item item;
         /**
-         * {Next of type node}.
+         * next.
          */
         private Node next;
     }
-
     /**
      * Create an empty stack.
      */
@@ -37,25 +34,24 @@ public class Stack<Item> implements Iterable<Item> {
         first = null;
         n = 0;
     }
-
     /**
-     * Is the stack empty?
-     * @return     {Boolean}.
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
         return first == null;
     }
-
     /**
-     * Return the number of items in the stack.
-     * @return     {Integer}.
+     * size.
+     *
+     * @return     { description_of_the_return_value }
      */
     public int size() {
         return n;
     }
-
     /**
-     * {Method to push into a stack}.
+     * push.
      *
      * @param      item  The item
      */
@@ -66,11 +62,10 @@ public class Stack<Item> implements Iterable<Item> {
         first.next = oldfirst;
         n++;
     }
-
     /**
-     * Delete and return the item most recently added to the stack.
-     * Throw an exception if no such item exists because the stack is empty.
-     * @return      {Item}
+     * pop.
+     *
+     * @return     { description_of_the_return_value }
      */
     public Item pop() {
         if (isEmpty()) {
