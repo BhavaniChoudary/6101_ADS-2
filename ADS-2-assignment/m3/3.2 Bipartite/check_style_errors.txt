@@ -52,20 +52,8 @@ Checkstyle ends with 15 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:17:5: Class 'Graph' looks like designed for extension (can be subclassed), but the method 'vertex' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graph' final or making the method 'vertex' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:17:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:20:5: Class 'Graph' looks like designed for extension (can be subclassed), but the method 'edge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graph' final or making the method 'edge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:20:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:23:5: Class 'Graph' looks like designed for extension (can be subclassed), but the method 'addEdge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graph' final or making the method 'addEdge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:23:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:28:5: Class 'Graph' looks like designed for extension (can be subclassed), but the method 'adj' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graph' final or making the method 'adj' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Graph.java:28:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m3\3.2 Bipartite\Queue.java:1: Missing a Javadoc comment. [JavadocType]
