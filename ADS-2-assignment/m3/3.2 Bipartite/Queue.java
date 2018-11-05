@@ -1,19 +1,49 @@
 public class Queue<Item> {
+    /**
+     * n var_description.
+     */
     private int n;
+    /**
+     * first var_description.
+     */
     private Node first;
+    /**
+     * last var_description.
+     */
     private Node last;
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * item.
+         */
         private Item item;
+        /**
+         * next.
+         */
         private Node next;
     }
+    /**
+     * Constructs the object.
+     */
     Queue() {
         first = null;
         last  = null;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return first == null;
     }
-
+    /**
+     * size.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size() {
         return n;
     }
