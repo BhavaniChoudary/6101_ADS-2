@@ -140,7 +140,6 @@ public class Bag<Item> implements Iterable<Item> {
             String item = StdIn.readString();
             bag.add(item);
         }
-
         StdOut.println("size of bag = " + bag.size());
         for (String s : bag) {
             StdOut.println(s);
