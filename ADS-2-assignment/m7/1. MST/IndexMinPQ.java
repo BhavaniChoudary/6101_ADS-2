@@ -7,6 +7,13 @@ class IndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer> {
     private int[] qp;        // inverse of pq - qp[pq[i]] = pq[qp[i]] = i
     private Key[] keys;      // keys[i] = priority of i
 
+    /**
+     * Initializes an empty indexed priority queue with indices between {@code 0}
+     * and {@code maxN - 1}.
+     * @param  maxN the keys on this priority queue are index from {@code 0}
+     *         {@code maxN - 1}
+     * @throws IllegalArgumentException if {@code maxN < 0}
+     */
     public IndexMinPQ(int maxN) {
         if (maxN < 0) throw new IllegalArgumentException();
         this.maxN = maxN;
