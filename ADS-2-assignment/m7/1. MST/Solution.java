@@ -1,8 +1,19 @@
 import java.util.Scanner;
+/**
+ * Solution class.
+ */
 public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //function.
     }
+    /**
+     * main function_description.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner in = new Scanner(System.in);
         int vert = Integer.parseInt(in.nextLine());
@@ -17,3 +28,5 @@ public final class Solution {
         System.out.format("%.5f", p.weight());
     }
 }
+
+
