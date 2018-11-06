@@ -275,7 +275,7 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:6:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:6:16: Parameter G should be final. [FinalParameters]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:6:24: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:9:12: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:9:12: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:15:5: Class 'SAP' looks like designed for extension (can be subclassed), but the method 'length' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SAP' final or making the method 'length' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:15:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\SAP.java:20:26: '<' is not followed by whitespace. [WhitespaceAround]
@@ -307,7 +307,7 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:8:75: Empty statement. [EmptyStatement]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:18: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:20: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:21:43: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:21:43: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:22: Line is longer than 80 characters (found 111). [LineLength]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m4\Code Camp - WordNet\WordNet\Solution.java:24: Line is longer than 80 characters (found 165). [LineLength]
 Audit done.
