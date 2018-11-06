@@ -297,12 +297,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m7\1. MST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m7\1. MST\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m7\1. MST\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m7\1. MST\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 4 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m7\1. MST\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m7\1. MST\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
