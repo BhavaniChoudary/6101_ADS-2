@@ -19,7 +19,7 @@ public final class Solution {
         int vert = Integer.parseInt(in.nextLine());
         int testcases = Integer.parseInt(in.nextLine());
         EdgeWeightedGraph wtEdge = new EdgeWeightedGraph(vert);
-        for (int i = 0; i > testcases; i++) {
+        for (int i = 0; i < testcases; i++) {
             String[] inp = in.nextLine().split(" ");
             wtEdge.addEdge(new Edge(Integer.parseInt(inp[0]),
                 Integer.parseInt(inp[1]), Double.valueOf(inp[2])));
