@@ -1,9 +1,21 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//function.
 	}
+	/**
+	 * Main method.
+	 * complexity O(E+V)
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String[] input = sc.nextLine().split(" ");
@@ -28,11 +40,33 @@ class Solution {
         }
 	}
 }
+/**
+ * Class for dijkstras.
+ */
 class Dijkstras {
+	/**
+	 * int variable.
+	 */
 	private static final int NUMBER = 10000000;
+	/**
+	 * distance array.
+	 */
 	private int[] distance;
+	/**
+	 * edge.
+	 */
 	private Edge[] edge;
+	/**
+	 * Index min PQ.
+	 */
 	private IndexMinPQ<Integer>min;
+	/**
+	 * Constructs the object.
+	 * complexity O(E+V)
+	 *
+	 * @param      graph  The graph
+	 * @param      one    One
+	 */
 	Dijkstras(final EdgeWeighted graph, final int one) {
         distance = new int[graph.vertices()];
         edge = new Edge[graph.vertices()];
@@ -49,6 +83,13 @@ class Dijkstras {
             }
         }
     }
+    /**
+     * relax method.
+     * complexity O(logE)
+     *
+     * @param      ed    { parameter_description }
+     * @param      one   One
+     */
     public void relax(final Edge ed, final int one) {
         int two = ed.other(one);
         if (distance[two] > distance[one] + ed.getWeight()) {
@@ -61,9 +102,25 @@ class Dijkstras {
             }
         }
     }
+    /**
+     * returns distance.
+     * complexity O(1)
+     *
+     * @param      one   One
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int distTo(final int one) {
         return distance[one];
     }
+    /**
+     * returns shortest distance.
+     * complexity O(E)
+     *
+     * @param      one   One
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int distanceTo(final int one) {
         int total = 0;
         for (Edge each : pathTo(one)) {
@@ -71,6 +128,14 @@ class Dijkstras {
         }
         return total;
     }
+    /**
+     * Iterable.
+     * complexity O(ElogV)
+     *
+     * @param      one   One
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<Edge> pathTo(final int one) {
         if (!hasPath(one)) {
             return null;
@@ -83,6 +148,14 @@ class Dijkstras {
         }
         return sta;
     }
+    /**
+     * Determines if it has path.
+     * complexity O(1)
+     *
+     * @param      one   One
+     *
+     * @return     True if has path, False otherwise.
+     */
     public boolean hasPath(final int one) {
         return distance[one] < NUMBER;
     }

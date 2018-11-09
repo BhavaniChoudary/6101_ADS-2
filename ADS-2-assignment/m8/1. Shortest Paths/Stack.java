@@ -59,16 +59,35 @@ public class Stack<Item> implements Iterable<Item> {
          */
         private Node next;
     }
+    /**
+     * Constructs the object.
+     */
     public Stack() {
         first = null;
         n = 0;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return first == null;
     }
+    /**
+     * size.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int size() {
         return n;
     }
+    /**
+     * add item.
+     * complexity O(1)
+     *
+     * @param      item  The item
+     */
     public void push(final Item item) {
         Node oldfirst = first;
         first = new Node();
@@ -76,6 +95,12 @@ public class Stack<Item> implements Iterable<Item> {
         first.next = oldfirst;
         n++;
     }
+    /**
+     * delete.
+     * complexity O(1)
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item pop() {
         if (isEmpty()) {
             throw new RuntimeException("Stack underflow");
@@ -85,12 +110,25 @@ public class Stack<Item> implements Iterable<Item> {
         n--;
         return item;                   // return the saved item
     }
+    /**
+     * peek.
+     * complexity O(1)
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item peek() {
         if (isEmpty()) {
             throw new RuntimeException("Stack underflow");
         }
         return first.item;
     }
+    /**
+     * Returns a string representation of the object.
+     * complexity O(n) 
+     * as we iterate whole stack.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         StringBuilder s = new StringBuilder();
         for (Item item : this) {
@@ -98,9 +136,17 @@ public class Stack<Item> implements Iterable<Item> {
         }
         return s.toString();
     }
+    /**
+     * Iterator.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterator<Item> iterator()  {
         return new ListIterator();
     }
+    /**
+     * Class for list iterator.
+     */
     private class ListIterator implements Iterator<Item> {
         /**
          * node class object.
