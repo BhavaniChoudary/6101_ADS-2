@@ -7,48 +7,105 @@
  *************************************************************************/
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+/**
+ * Class for bag.
+ *
+ * @param      <Item>  The item
+ */
 public class Bag<Item> implements Iterable<Item> {
-    private int n;
-    private Node first;
-    private class Node {
-        private Item item;
-        private Node next;
+  /**
+   * n var_description.
+   */
+  private int n;
+  /**
+   * first var_description.
+   */
+  private Node first;
+  /**
+   * Class for node.
+   */
+  private class Node {
+    /**
+     * item var_description.
+     */
+    private Item item;
+    /**
+     * next var_description.
+     */
+    private Node next;
+  }
+  /**
+   * Constructs the object Bag.
+   */
+  public Bag() {
+    first = null;
+    n = 0;
+  }
+  /**
+   * Determines if empty.
+   *
+   * @return     True if empty, False otherwise.
+   */
+  public boolean isEmpty() {
+    return first == null;
+  }
+  /**
+   * size.
+   *
+   * @return     { description_of_the_return_value }
+   */
+  public int size() {
+    return n;
+  }
+  /**
+   * add the item to the bag.
+   * time complexity is O(1)
+   *
+   * @param      item  The item
+   */
+  public void add(final Item item) {
+    Node oldfirst = first;
+    first = new Node();
+    first.item = item;
+    first.next = oldfirst;
+    n++;
+  }
+  /**
+   * Return an iterator that iterates over the bag.
+   *complexity is O(1)
+   *
+   * @return     { description_of_the_return_value }
+   */
+  public Iterator<Item> iterator()  {
+    return new ListIterator();
+  }
+  /**
+   * Class for list iterator.
+   */
+  private class ListIterator implements Iterator<Item> {
+    /**
+     * temp node.
+     */
+    private Node current = first;
+    /**
+     * Determines if it has next.
+     * complexity is O(1)
+     *
+     * @return     True if has next, False otherwise.
+     */
+    public boolean hasNext()  {
+      return current != null;
     }
-    public Bag() {
-        first = null;
-        n = 0;
+    public void remove() {
+      throw new UnsupportedOperationException();
     }
-    public boolean isEmpty() {
-        return first == null;
+    public Item next() {
+      if (!hasNext()) {
+        throw new NoSuchElementException();
+      }
+      Item item = current.item;
+      current = current.next;
+      return item;
     }
-    public int size() {
-        return n;
-    }
-    public void add(final Item item) {
-        Node oldfirst = first;
-        first = new Node();
-        first.item = item;
-        first.next = oldfirst;
-        n++;
-    }
-    public Iterator<Item> iterator()  {
-        return new ListIterator();
-    }
-    private class ListIterator implements Iterator<Item> {
-        private Node current = first;
-        public boolean hasNext()  {
-            return current != null;
-        }
-        public void remove() {
-            throw new UnsupportedOperationException();
-         }
-        public Item next() {
-            if (!hasNext()) {
-                throw new NoSuchElementException();
-            }
-            Item item = current.item;
-            current = current.next;
-            return item;
-        }
-    }
+  }
 }
