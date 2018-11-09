@@ -5,13 +5,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:8: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:8:53: '>' is followed by an illegal character. [GenericWhitespace]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:107: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:143:22: Parameter i should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:272: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]

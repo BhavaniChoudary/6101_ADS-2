@@ -5,7 +5,8 @@ import java.util.NoSuchElementException;
  *
  * @param      <Key>  The key
  */
-public class IndexMinPQ<Key extends Comparable<Key>>implements Iterable<Integer> {
+public class IndexMinPQ<Key extends Comparable<Key>>
+implements Iterable<Integer> {
     /**
     * max no.of elements in PQ.
     */
@@ -102,9 +103,9 @@ public class IndexMinPQ<Key extends Comparable<Key>>implements Iterable<Integer>
         return pq[1];
     }
     /**
-     * return index associated with minimun key.
+     * min key.
      * complexity O(1)
-     * 
+     *
      * @return     { description_of_the_return_value }
      */
     public Key minKey() {
@@ -140,7 +141,7 @@ public class IndexMinPQ<Key extends Comparable<Key>>implements Iterable<Integer>
      *
      * @return     { description_of_the_return_value }
      */
-    public Key keyOf(int i) {
+    public Key keyOf(final int i) {
         return keys[i];
     }
     /**
@@ -269,7 +270,7 @@ public class IndexMinPQ<Key extends Comparable<Key>>implements Iterable<Integer>
      */
     private class HeapIterator implements Iterator<Integer> {
         /**
-         * creates new pq. 
+         * creates new pq.
          */
         private IndexMinPQ<Key> copy;
         /**
