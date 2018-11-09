@@ -4,21 +4,12 @@ Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:2:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:3:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:4:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:5:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:5:14: Parameter one should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:5:23: Parameter two should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:5:32: Parameter w should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:10:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:13:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:19:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:22:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:24:14: Parameter one should be final. [FinalParameters]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:24:23: Parameter two should be final. [FinalParameters]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:24:32: Parameter w should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:1: Missing a Javadoc comment. [JavadocType]
