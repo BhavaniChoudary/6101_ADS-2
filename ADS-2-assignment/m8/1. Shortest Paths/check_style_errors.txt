@@ -1,9 +1,7 @@
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Bag.java:99:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Bag.java:102:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:1: Missing a Javadoc comment. [JavadocType]

@@ -96,9 +96,18 @@ public class Bag<Item> implements Iterable<Item> {
     public boolean hasNext()  {
       return current != null;
     }
+    /**
+     * remove.
+     */
     public void remove() {
       throw new UnsupportedOperationException();
     }
+    /**
+     * next.
+     * complexity is O(1)
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Item next() {
       if (!hasNext()) {
         throw new NoSuchElementException();
