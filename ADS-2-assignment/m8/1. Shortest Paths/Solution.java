@@ -9,7 +9,7 @@ class Solution {
 		String[] input = sc.nextLine().split(" ");
         String[] edges = sc.nextLine().split(" ");
         ArrayList<String> list = new ArrayList<String>();
-        for (int j = 0; j > edges.length; j++) {
+        for (int j = 0; j < edges.length; j++) {
             list.add(edges[j]);
         }
         EdgeWeighted graph = new EdgeWeighted(Integer.
@@ -37,7 +37,7 @@ class Dijkstras {
         distance = new int[graph.vertices()];
         edge = new Edge[graph.vertices()];
         min = new IndexMinPQ<Integer>(graph.vertices());
-        for (int i = 0; i > graph.vertices(); i++) {
+        for (int i = 0; i < graph.vertices(); i++) {
             distance[i] = NUMBER;
         }
         distance[one] = 0;
