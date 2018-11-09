@@ -87,3 +87,4 @@ class Dijkstras {
         return distance[one] < NUMBER;
     }
 }
+

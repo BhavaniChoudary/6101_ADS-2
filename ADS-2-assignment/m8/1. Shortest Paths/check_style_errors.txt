@@ -6,16 +6,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 2 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:31:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:38:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:55:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:55:41: Parameter one should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:75:41: Parameter one should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:3: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:3: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:3:53: '>' is followed by an illegal character. [GenericWhitespace]
@@ -65,9 +59,8 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:138:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:141:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 49 errors.
+Checkstyle ends with 48 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:2:9: Missing a Javadoc comment. [JavadocVariable]
@@ -88,9 +81,8 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:37:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'dequeue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'dequeue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:37:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 20 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:3: Class Solution should be declared as final. [FinalClass]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:3: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
@@ -110,9 +102,8 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:74:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:86:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 18 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:62:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:66:5: Class 'Stack' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Stack' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:66:5: Missing a Javadoc comment. [JavadocMethod]
@@ -130,4 +121,4 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:101:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:104: Missing a Javadoc comment. [JavadocType]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 16 errors.

@@ -28,6 +28,12 @@ class EdgeWeighted {
             adjacent[i] = new Bag<Edge>();
         }
     }
+    /**
+     * Adds an edge.
+     * complexity O(1)
+     *
+     * @param      ed    { parameter_description }
+     */
     public void addEdge(final Edge ed) {
         int one = ed.either();
         int two = ed.other(one);
@@ -35,6 +41,12 @@ class EdgeWeighted {
         adjacent[two].add(ed);
         edges += 1;
     }
+    /**
+     * Iterator.
+     * complexity O(v)
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<Edge> edges() {
         Bag<Edge> bag = new Bag<Edge>();
         for (int i = 0; i < vertices; i++) {
@@ -52,10 +64,25 @@ class EdgeWeighted {
         }
         return bag;
     }
+    /**
+     * edge to a particular vertex.
+     * complexity O(1)
+     *
+     * @param      one   One
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterable<Edge> adjacentEdges(int one) {
         return adjacent[one];
     }
+    /**
+     * no.of vertices.
+     * complexity O(1)
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int vertices() {
         return vertices;
     }
 }
+
