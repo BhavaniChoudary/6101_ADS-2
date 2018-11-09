@@ -1,16 +1,34 @@
+/**
+ * Class for edge weighted.
+ */
 class EdgeWeighted {
-	private int vertices;
-	private int edges;
-	private Bag<Edge>[] adjacent;
-	EdgeWeighted(int one) {
-		this.vertices = one;
+    /**
+     * vertices variable.
+     */
+    private int vertices;
+    /**
+     * edges variable.
+     */
+    private int edges;
+    /**
+     * Bag class array.
+     */
+    private Bag<Edge>[] adjacent;
+    /**
+     * Constructs the object.
+     * complexity is O(v) //v is the no.of vertices.
+     *
+     * @param      one   One
+     */
+    EdgeWeighted(final int one) {
+        this.vertices = one;
         this.edges = 0;
         adjacent = (Bag<Edge>[]) new Bag[vertices];
         for (int i = 0; i < vertices; i++) {
             adjacent[i] = new Bag<Edge>();
         }
-	}
-	public void addEdge(final Edge ed) {
+    }
+    public void addEdge(final Edge ed) {
         int one = ed.either();
         int two = ed.other(one);
         adjacent[one].add(ed);
@@ -35,9 +53,9 @@ class EdgeWeighted {
         return bag;
     }
     public Iterable<Edge> adjacentEdges(int one) {
-    	return adjacent[one];
+        return adjacent[one];
     }
     public int vertices() {
-    	return vertices;
+        return vertices;
     }
 }
