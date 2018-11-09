@@ -21,7 +21,7 @@ class Edge implements Comparable<Edge> {
      * @param      two   Two
      * @param      w     { parameter_description }
      */
-    Edge(final int one,final int two,final int w) {
+    Edge(final int one, final int two, final int w) {
         this.edge1 = one;
         this.edge2 = two;
         this.weight = w;

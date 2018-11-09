@@ -1,65 +1,17 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:24:24: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Edge.java:24:38: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\EdgeWeightedGraph.java:75:41: Parameter one should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:3: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:3:53: '>' is followed by an illegal character. [GenericWhitespace]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:4:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:5:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:6:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:7:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:8:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:9:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:22:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:22:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:25:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'contains' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'contains' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:25:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:31:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:34:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'insert' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'insert' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:34:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:41:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'minIndex' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'minIndex' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:41:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:47:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'minKey' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'minKey' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:47:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:53:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'delMin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'delMin' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:53:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:66:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'keyOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'keyOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:66:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:66:22: Parameter i should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:69:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'changeKey' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'changeKey' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:69:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:74:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'change' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'change' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:74:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:77:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'decreaseKey' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'decreaseKey' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:77:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:81:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'increaseKey' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'increaseKey' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:81:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:85:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'delete' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'delete' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:85:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:93:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:96:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:103:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:110:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:124:5: Class 'IndexMinPQ' looks like designed for extension (can be subclassed), but the method 'iterator' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'IndexMinPQ' final or making the method 'iterator' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:124:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:127: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:128:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:129:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:135:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:138:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:141:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:8: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:8:53: '>' is followed by an illegal character. [GenericWhitespace]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:107: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:143:22: Parameter i should be final. [FinalParameters]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\IndexMinPQ.java:272: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 48 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]

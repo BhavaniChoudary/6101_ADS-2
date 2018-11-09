@@ -72,7 +72,7 @@ class EdgeWeighted {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<Edge> adjacentEdges(int one) {
+    public Iterable<Edge> adjacentEdges(final int one) {
         return adjacent[one];
     }
     /**
