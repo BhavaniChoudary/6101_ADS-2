@@ -11,6 +11,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Stack.java:127: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 1 errors.

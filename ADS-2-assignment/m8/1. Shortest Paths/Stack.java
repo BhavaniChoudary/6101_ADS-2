@@ -124,7 +124,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**
      * Returns a string representation of the object.
-     * complexity O(n) 
+     * complexity O(n)
      * as we iterate whole stack.
      *
      * @return     String representation of the object.
