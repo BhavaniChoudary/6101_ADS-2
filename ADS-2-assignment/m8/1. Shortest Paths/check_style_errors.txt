@@ -7,27 +7,9 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:2:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:3:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:4:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:5: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:6:17: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:7:17: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:9:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:13:9: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:13:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:16:9: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:16:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:19:9: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'peek' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'peek' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:19:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:25:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'enqueue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'enqueue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:25:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:37:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'dequeue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'dequeue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Queue.java:10:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:3: Class Solution should be declared as final. [FinalClass]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m8\1. Shortest Paths\Solution.java:3: Missing a Javadoc comment. [JavadocType]
