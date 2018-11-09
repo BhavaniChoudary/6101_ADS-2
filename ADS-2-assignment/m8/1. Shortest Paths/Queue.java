@@ -7,60 +7,60 @@ public class Queue<item> {
     /**
      * no.of elements.
      */
-	private int n;
+    private int n;
     /**
      * beggining of queue.
      */
-	private Node first;
+    private Node first;
     /**
      * end of queue.
      */
-	private Node last;
+    private Node last;
     /**
      * Class for node.
      */
-	private class Node {
+    private class Node {
         /**
          * item.
          */
-		private Item item;
+        private Item item;
         /**
          * next.
          */
-		private Node next;
-	}
+        private Node next;
+    }
     /**
      * Constructs the object.
      */
-	Queue() {
-		first = null;
-		last = null;
-	}
+    Queue() {
+        first = null;
+        last = null;
+    }
     /**
      * Determines if empty.
      * complexity O(1)
      *
      * @return     True if empty, False otherwise.
      */
-	public boolean isEmpty() {
-		return first == null;
-	}
+    public boolean isEmpty() {
+        return first == null;
+    }
     /**
      * size.
      * complexity O(1)
      *
      * @return     { description_of_the_return_value }
      */
-	public int size() {
-		return n;
-	}
+    public int size() {
+        return n;
+    }
     /**
      * return the item least recently added to the queue.
      * complexity O(1)
      *
      * @return     { description_of_the_return_value }
      */
-	public Item peek() {
+    public Item peek() {
         if (isEmpty()) {
             throw new RuntimeException("Queue underflow");
         }

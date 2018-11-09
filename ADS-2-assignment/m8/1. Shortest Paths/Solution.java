@@ -3,22 +3,22 @@ import java.util.ArrayList;
 /**
  * Class for solution.
  */
-class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		//function.
-	}
-	/**
-	 * Main method.
-	 * complexity O(E+V)
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String[] input = sc.nextLine().split(" ");
+final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //function.
+    }
+    /**
+     * Main method.
+     * complexity O(E+V)
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[] input = sc.nextLine().split(" ");
         String[] edges = sc.nextLine().split(" ");
         ArrayList<String> list = new ArrayList<String>();
         for (int j = 0; j < edges.length; j++) {
@@ -38,36 +38,36 @@ class Solution {
             Dijkstras dij = new Dijkstras(graph, list.indexOf(item[0]));
             System.out.println(dij.distanceTo(list.indexOf(item[1])));
         }
-	}
+    }
 }
 /**
  * Class for dijkstras.
  */
 class Dijkstras {
-	/**
-	 * int variable.
-	 */
-	private static final int NUMBER = 10000000;
-	/**
-	 * distance array.
-	 */
-	private int[] distance;
-	/**
-	 * edge.
-	 */
-	private Edge[] edge;
-	/**
-	 * Index min PQ.
-	 */
-	private IndexMinPQ<Integer>min;
-	/**
-	 * Constructs the object.
-	 * complexity O(E+V)
-	 *
-	 * @param      graph  The graph
-	 * @param      one    One
-	 */
-	Dijkstras(final EdgeWeighted graph, final int one) {
+    /**
+     * int variable.
+     */
+    private static final int NUMBER = 10000000;
+    /**
+     * distance array.
+     */
+    private int[] distance;
+    /**
+     * edge.
+     */
+    private Edge[] edge;
+    /**
+     * Index min PQ.
+     */
+    private IndexMinPQ<Integer> min;
+    /**
+     * Constructs the object.
+     * complexity O(E+V)
+     *
+     * @param      graph  The graph
+     * @param      one    One
+     */
+    Dijkstras(final EdgeWeighted graph, final int one) {
         distance = new int[graph.vertices()];
         edge = new Edge[graph.vertices()];
         min = new IndexMinPQ<Integer>(graph.vertices());
