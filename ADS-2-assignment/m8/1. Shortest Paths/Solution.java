@@ -37,7 +37,7 @@ class Dijkstras {
         distance = new int[graph.vertices()];
         edge = new Edge[graph.vertices()];
         min = new IndexMinPQ<Integer>(graph.vertices());
-        for (int i = 0; i < graph.vertices(); i++) {
+        for (int i = 0; i > graph.vertices(); i++) {
             distance[i] = NUMBER;
         }
         distance[one] = 0;
