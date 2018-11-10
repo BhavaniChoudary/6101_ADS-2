@@ -9,10 +9,10 @@ public class Solution {
 		int cities = sc.nextInt();
 		int roadLines = sc.nextInt();
 		sc.nextLine();
-		//EdgeWeightedGraph g = new EdgeWeightedGraph(cities);
+		EdgeWeightedGraph g = new EdgeWeightedGraph(cities);
 		for(int i = 0; i < roadLines; i++) {
 			String[] tokens = sc.nextLine().split(" ");
-			//g.addEdge(new Edge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2])));
+			g.addEdge(new Edge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2])));
 		}
 
 		String caseToGo = null;
