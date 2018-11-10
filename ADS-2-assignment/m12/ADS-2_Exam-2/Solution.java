@@ -60,7 +60,11 @@ final class Solution {
             break;
 
         case "ViaPaths":
-            
+            // Handle the case of ViaPaths, where three integers are given.
+            // First is the source and second is the via is the one where path should pass throuh.
+            // third is the destination.
+            // If the path exists print the distance between them.
+            // Other wise print "No Path Found."
             break;
         default:
             break;
