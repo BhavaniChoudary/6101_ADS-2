@@ -26,7 +26,7 @@ class LSD {
     int size = arr.length;
     int charac = CHAR;
     String[] aux = new String[size];
-    for(int d = one - 1; d >= 0; d--) {
+    for (int d = one - 1; d >= 0; d--) {
         int[] count = new int[charac + 1];
         for (int i = 0; i < size; i++) {
             count[arr[i].charAt(d) + 1]++;
@@ -46,7 +46,6 @@ class LSD {
  * Returns a string representation of the object.
  * comlexity O(n)
  * n is the length of array.
- * 
  * @param      one   One
  *
  * @return     String representation of the object.
@@ -74,11 +73,10 @@ final class Solution {
      * Main method.
      * complexity O(n + w*n) as we are taking n inputs and
      * calling sort method in LSD class.
-     * 
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int input = Integer.parseInt(scan.nextLine());
         String[] tokens = new String[input];

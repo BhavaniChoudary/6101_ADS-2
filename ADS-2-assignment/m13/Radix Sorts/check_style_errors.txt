@@ -1,8 +1,4 @@
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m13\Radix Sorts\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m13\Radix Sorts\Solution.java:29:8: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m13\Radix Sorts\Solution.java:49: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m13\Radix Sorts\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m13\Radix Sorts\Solution.java:81:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.
