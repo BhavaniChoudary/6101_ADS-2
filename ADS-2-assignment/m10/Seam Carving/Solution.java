@@ -1,9 +1,20 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Solution class.
+ */
 public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
+        //function.
     }
+    /**
+     * 
+     *
+     * @param      fileName  The file name
+     */
     public static void printEnergies(final String fileName) {
         Picture picture = new Picture(fileName);
         StdOut.printf("image is %d pixels wide by %d pixels high.\n",
