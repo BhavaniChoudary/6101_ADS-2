@@ -239,3 +239,4 @@ public class SeamCarver {
         return arr;
     }
 }
+
