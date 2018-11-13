@@ -4,7 +4,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -13,7 +13,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -22,7 +22,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -31,7 +31,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -40,7 +40,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -49,7 +49,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -58,15 +58,14 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 [abacd1205, abacd1210, abacd1214, abacd1225, abacd1236, abacd1239, abacd1256, abacd1259, abacd1291]
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:66)
+[abacd1205, abacd1210, abacd1214, abacd1225, abacd1236, abacd1239, abacd1256, abacd1259, abacd1291]
 ----------------------------------------
 

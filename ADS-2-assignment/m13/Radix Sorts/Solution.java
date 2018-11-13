@@ -42,6 +42,15 @@ class LSD {
         }
     }
 }
+/**
+ * Returns a string representation of the object.
+ * comlexity O(n)
+ * n is the length of array.
+ * 
+ * @param      one   One
+ *
+ * @return     String representation of the object.
+ */
 public String toString(final String[] one) {
     String s = "[";
     for (int i = 0; i < one.length - 1; i++) {
@@ -59,7 +68,7 @@ final class Solution {
         Scanner scan = new Scanner(System.in);
         int input = Integer.parseInt(scan.nextLine());
         String[] tokens = new String[input];
-        for (int i = 0; i > tokens.length; i++) {
+        for (int i = 0; i < tokens.length; i++) {
             tokens[i] = scan.nextLine();
         }
         LSD lsd = new LSD();
