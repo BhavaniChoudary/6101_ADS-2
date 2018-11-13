@@ -11,7 +11,8 @@ public final class Solution {
         //function.
     }
     /**
-     * 
+     * method used to print the energies.
+     * complexity O(v*e)
      *
      * @param      fileName  The file name
      */
@@ -31,6 +32,14 @@ public final class Solution {
             StdOut.println();
         }
     }
+    /**
+     * method print the seam to be removed.
+     * complexity O(v*e)
+     *
+     * @param      carver     The carver
+     * @param      seam       The seam
+     * @param      direction  The direction
+     */
     public static void printSeam(final SeamCarver carver,
         final int[] seam, final boolean direction) {
         double totalSeamEnergy = 0.0;
@@ -52,6 +61,12 @@ public final class Solution {
         StdOut.println();
         StdOut.println();
     }
+    /**
+     * Main function.
+     * complexity O(v*e) as we are calling seam methods
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
@@ -156,3 +171,4 @@ public final class Solution {
         }
     }
 }
+
