@@ -1,9 +1,27 @@
 import java.util.Scanner;
+/**
+ * Class for lsd.
+ */
 class LSD {
+    /**
+     * int var_description.
+     */
     private static final int CHAR = 256;
+    /**
+     * Constructs the object.
+     */
     protected LSD() {
-
+        //
     }
+    /**
+     * sorting of the input given.
+     * complexity O(w*n)
+     * w-fixed length.
+     * n-array length.
+     *
+     * @param      arr   The arr
+     * @param      one   One
+     */
     public void sort(final String[] arr, final int one) {
     int size = arr.length;
     int charac = CHAR;
