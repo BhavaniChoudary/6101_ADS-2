@@ -2,54 +2,11 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:2:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:7:10: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'picture' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'picture' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:7:10: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:10:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'width' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'width' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:10:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:13:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'height' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'height' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:13:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:16:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'energy' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'energy' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:16:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:45:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'relaxVertical' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'relaxVertical' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:45:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:67:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findVerticalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findVerticalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:67:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:106:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'removeHorizontalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'removeHorizontalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:106:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:132:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'removeVerticalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'removeVerticalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:132:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:147:5: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findHorizontalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findHorizontalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\SeamCarver.java:147:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:5: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:7:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:8:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:17:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:18:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:22:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:25:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:28:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:31:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:34:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:37:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:40:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:43:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:46:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:49:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:52:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:55:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:59:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m10\Seam Carving\StdOut.java:63:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 1 errors.
