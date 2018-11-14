@@ -7,10 +7,17 @@ final class Solution {
      * Constructs the object.
      */
     private Solution() {
-        //Nothing happens here.
+        //function.
     }
     /**
      * The main method.
+     * Time complexity of this method is O(E)
+     * E is number of edges for graph query
+     * V for printing graph for directed path query.
+     * O(1) for hasPathTo.
+     * for adding edge is 1.
+     * logV for dijkstra's constructor for via paths query.
+     * O(n) for pathTo method.
      *
      * @param      args  The arguments
      */
@@ -22,24 +29,18 @@ final class Solution {
         int cities = sc.nextInt();
         int roadLines = sc.nextInt();
         sc.nextLine();
-        EdgeWeightedGraph gr = new EdgeWeightedGraph(cities);
-        EdgeWeightedDigraph g = new EdgeWeightedDigraph(cities);
+        EdgeWeightedGraph g = new EdgeWeightedGraph(cities);
+        //EdgeWeightedDigraph g = new EdgeWeightedDigraph(cities);
         for (int i = 0; i < roadLines; i++) {
             String[] tokens = sc.nextLine().split(" ");
-            gr.addEdge(new Edge(Integer.parseInt(tokens[0]),
+            g.addEdge(new Edge(Integer.parseInt(tokens[0]),
                 Integer.parseInt(tokens[1]),
-                Integer.parseInt(tokens[2])));
-            g.addEdge(new DirectedEdge(Integer.parseInt(tokens[0]),
-                Integer.parseInt(tokens[1]),
-                Integer.parseInt(tokens[2])));
-            g.addEdge(new DirectedEdge(Integer.parseInt(tokens[1]),
-                Integer.parseInt(tokens[0]),
                 Integer.parseInt(tokens[2])));
         }
         String caseToGo = sc.nextLine();
         switch (caseToGo) {
         case "Graph":
-            System.out.println(gr);
+            System.out.println(g);
             break;
         case "DirectedPaths":
             // Handle the case of DirectedPaths,
@@ -70,6 +71,6 @@ final class Solution {
         default:
             break;
         }
-
     }
 }
+
