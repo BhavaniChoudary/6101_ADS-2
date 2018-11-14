@@ -1,21 +1,71 @@
 import java.util.Scanner;
+/**
+ * Class for ternary search trie.
+ *
+ * @param      <Value>  The value
+ */
 class TST<Value> {
+	/**
+    * int variable.
+    */
 	private int size;
+	/**
+	 * Node object.
+	 */
 	private Node<Value> root;
+	/**
+	 * Class for node.
+	 *
+	 * @param      <Value>  The value
+	 */
 	private class Node<Value> {
+		/**
+		 * char variable.
+		 */
 		private char c;
+		/**
+		 * node object.
+		 */
 		private Node<Value> left, mid, right;
+		/**
+		 * value to the node.
+		 */
 		private Value val;
 	}
+	/**
+	 * Constructs the object.
+	 */
 	TST() {
 
 	}
+	/**
+	 * returns size.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	private int size() {
 		return size;
 	}
+	/**
+     * checks if the string is present or not.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * because we are calling the get method.
+     * @param      one   One
+     *
+     * @return     boolean value.
+     */
 	public boolean contains(final String key) {
 		return get(key) != null;
 	}
+	/**
+     * helper method for the main get method.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * @param      one   One
+     *
+     * @return     the string.
+     */
 	public Value get(final String key) {
         Node<Value> x = get(root, key, 0);
         if (x == null) {
@@ -23,6 +73,16 @@ class TST<Value> {
         }
         return x.val;
     }
+    /**
+     * it returns the value.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * @param      node  The node
+     * @param      one   One
+     * @param      d     the character
+     *
+     * @return     node object.
+     */
     private Node<Value> get(final Node<Value> x,
                             final String key, final int d) {
         if (x == null) {
@@ -39,6 +99,13 @@ class TST<Value> {
             return x;
         }
     }
+    /**
+     * helper method for the main put method.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * @param      one    One
+     * @param      value  The value
+     */
     public void put(final String key,
                     final Value val) {
         if (!contains(key)) {
@@ -46,6 +113,17 @@ class TST<Value> {
         }
         root = put(root, key, val, 0);
     }
+    /**
+     * used to put the string with the assigned value.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * @param      node   The node
+     * @param      one    One
+     * @param      value  The value
+     * @param      d      the charcter index.
+     *
+     * @return     Node object.
+     */
     private Node<Value> put(final Node<Value> temp,
                             final String key, final Value val, final int d) {
         Node<Value> x = temp;
@@ -65,6 +143,14 @@ class TST<Value> {
         }
         return x;
     }
+    /**
+     * used to find the string with the prefix.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * @param      one   One
+     *
+     * @return    Iterable.
+     */
     public Iterable<String> keysWithPrefix(final String prefix) {
         Queue<String> queue = new Queue<String>();
         Node<Value> x = get(root, prefix, 0);
@@ -77,6 +163,15 @@ class TST<Value> {
         collect(x.mid, new StringBuilder(prefix), queue);
         return queue;
     }
+    /**
+     * checks for the strings with the preffix
+     * in trie.
+     * complexity is O(L + logN)
+     * L length of string, N trie size.
+     * @param      node  The node
+     * @param      one   One
+     * @param      que   The que
+     */
     private void collect(final Node<Value> x,
                          final StringBuilder prefix,
                           final Queue<String> queue) {
@@ -92,7 +187,13 @@ class TST<Value> {
         collect(x.right, prefix, queue);
     }
 }
+/**
+ * Solution class.
+ */
 final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//function.
 	}
@@ -110,6 +211,12 @@ final class Solution {
         }
         System.out.println(obj.keysWithPrefix(prefix));
 	}
+	/**
+	 * Loads words.
+	 * complexity O()
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static String[] loadWords() {
 		In in = new In("/Files/dictionary-algs4.txt");
 		String[] words = in.readAllStrings();
