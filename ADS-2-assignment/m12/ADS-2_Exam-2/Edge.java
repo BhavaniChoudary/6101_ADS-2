@@ -79,3 +79,4 @@ class Edge implements Comparable<Edge> {
         return String.format("%d-%d %.5f", vertexOne, vertexTwo, weight);
     }
 }
+

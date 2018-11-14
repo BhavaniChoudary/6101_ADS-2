@@ -85,7 +85,6 @@ class DijkstraSP {
     /**
      * returns shortest path to given vertex.
      * Time complexity is O(ElogV)
-     * 
      * @param      v  vertex.
      *
      * @return shortest path is returned from the source.
@@ -103,3 +102,4 @@ class DijkstraSP {
         return path;
     }
 }
+

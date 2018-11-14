@@ -1,25 +1,14 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m12\ADS-2_Exam-2\DijkstraSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m12\ADS-2_Exam-2\DijkstraSP.java:88: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m12\ADS-2_Exam-2\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
-Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-Audit done.
-Checkstyle ends with 1 errors.
-Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m12\ADS-2_Exam-2\IndexMinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
