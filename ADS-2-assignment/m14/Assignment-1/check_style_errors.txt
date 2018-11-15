@@ -1,35 +1,6 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:6: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:7:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:8:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:10:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:15:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:15:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:18:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:18:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:21:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'peek' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'peek' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:21:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:24:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'enqueue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'enqueue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:24:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:36:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'dequeue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'dequeue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:36:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:45:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:45:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:53:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'iterator' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'iterator' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:53:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:56: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:57:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:58:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:61:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:64:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m14\Assignment-1\Queue.java:67:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 28 errors.
 Starting audit...
 Audit done.
