@@ -1,52 +1,92 @@
 import java.util.Scanner;
 /**
- * Class for ternary search trie.
+ * Class for solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
+     * main method for the program.
+     * complexity O(m*n)
+     * m ----> words in file
+     * n------> word length
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        String[] words = loadWords();
+        Scanner scan = new Scanner(System.in);
+        String token = scan.nextLine();
+        TST tst = new TST();
+        for (String each : words) {
+            for (int i = 0; i < each.length(); i++) {
+                tst.put(each.substring(i, each.length()), 0);
+            }
+        }
+        System.out.println(tst.keysWithPrefix(token));
+    }
+    /**
+     * Loads words.
+     * complexity O()
+     * @return     array.
+     */
+    public static String[] loadWords() {
+        In in = new In("/Files/dictionary-algs4.txt");
+        String[] words = in.readAllStrings();
+        return words;
+    }
+}
+/**
+ * Class for tst.
  *
  * @param      <Value>  The value
  */
 class TST<Value> {
-	/**
-    * int variable.
-    */
-	private int size;
-	/**
-	 * Node object.
-	 */
-	private Node<Value> root;
-	/**
-	 * Class for node.
-	 *
-	 * @param      <Value>  The value
-	 */
-	private class Node<Value> {
-		/**
-		 * char variable.
-		 */
-		private char c;
-		/**
-		 * node object.
-		 */
-		private Node<Value> left, mid, right;
-		/**
-		 * value to the node.
-		 */
-		private Value val;
-	}
-	/**
-	 * Constructs the object.
-	 */
-	TST() {
+    /**
+     * int variable.
+     */
+    private int n;
+    /**
+     * Node object.
+     */
+    private Node<Value> root;
+    /**
+     * Class for node.
+     *
+     * @param      <Value>  The value
+     */
+    class Node<Value> {
+        /**
+         * char variable.
+         */
+        private char character;
+        /**
+         * node object.
+         */
+        private Node<Value> left;
+        /**
+         * node object.
+         */
+        private Node<Value> middle;
+        /**
+         * node object.
+         */
+        private Node<Value> right;
+        /**
+         * value variable.
+         */
+        private Value value;
+    }
+    /**
+     * Constructs the object.
+     */
+    TST() {
 
-	}
-	/**
-	 * returns size.
-	 *
-	 * @return     { description_of_the_return_value }
-	 */
-	private int size() {
-		return size;
-	}
-	/**
+    }
+    /**
      * checks if the string is present or not.
      * complexity is O(L + logN)
      * L length of string, N trie size.
@@ -55,10 +95,10 @@ class TST<Value> {
      *
      * @return     boolean value.
      */
-	public boolean contains(final String key) {
-		return get(key) != null;
-	}
-	/**
+    public boolean contains(final String one) {
+        return get(one) != null;
+    }
+    /**
      * helper method for the main get method.
      * complexity is O(L + logN)
      * L length of string, N trie size.
@@ -66,12 +106,12 @@ class TST<Value> {
      *
      * @return     the string.
      */
-	public Value get(final String key) {
-        Node<Value> x = get(root, key, 0);
-        if (x == null) {
+    public Value get(final String one) {
+        Node<Value> node = get(root, one, 0);
+        if (node == null) {
             return null;
         }
-        return x.val;
+        return node.value;
     }
     /**
      * it returns the value.
@@ -83,20 +123,20 @@ class TST<Value> {
      *
      * @return     node object.
      */
-    private Node<Value> get(final Node<Value> x,
-                            final String key, final int d) {
-        if (x == null) {
+    public Node<Value> get(final Node<Value> node,
+        final String one, final int d) {
+        if (node == null) {
             return null;
         }
-        char c = key.charAt(d);
-        if (c < x.c) {
-            return get(x.left, key, d);
-        } else if (c > x.c) {
-            return get(x.right, key, d);
-        } else if (d < key.length() - 1) {
-            return get(x.mid, key, d + 1);
+        char ch = one.charAt(d);
+        if (ch < node.character) {
+            return get(node.left,  one, d);
+        } else if (ch > node.character) {
+            return get(node.right, one, d);
+        } else if (d < one.length() - 1) {
+            return get(node.middle, one, d + 1);
         } else {
-            return x;
+            return node;
         }
     }
     /**
@@ -106,12 +146,11 @@ class TST<Value> {
      * @param      one    One
      * @param      value  The value
      */
-    public void put(final String key,
-                    final Value val) {
-        if (!contains(key)) {
-            size++;
+    public void put(final String one, final Value value) {
+        if (!contains(one)) {
+            n++;
         }
-        root = put(root, key, val, 0);
+        root = put(root, one, value, 0);
     }
     /**
      * used to put the string with the assigned value.
@@ -124,24 +163,25 @@ class TST<Value> {
      *
      * @return     Node object.
      */
-    private Node<Value> put(final Node<Value> temp,
-                            final String key, final Value val, final int d) {
-        Node<Value> x = temp;
-        char c = key.charAt(d);
-        if (x == null) {
-            x = new Node<Value>();
-            x.c = c;
+    public Node<Value> put(final Node<Value> node,
+        final String one, final Value value,
+        final int d) {
+        Node node1 = node;
+        char ch = one.charAt(d);
+        if (node1 == null) {
+            node1 = new Node<Value>();
+            node1.character = ch;
         }
-        if (c < x.c) {
-            x.left  = put(x.left,  key, val, d);
-        } else if (c > x.c)   {
-            x.right = put(x.right, key, val, d);
-        } else if (d < key.length() - 1) {
-            x.mid   = put(x.mid,   key, val, d + 1);
-        } else   {
-            x.val   = val;
+        if (ch < node1.character) {
+            node1.left  = put(node1.left,  one, value, d);
+        } else if (ch > node1.character) {
+            node1.right = put(node1.right, one, value, d);
+        } else if (d < one.length() - 1) {
+            node1.middle   = put(node1.middle, one, value, d + 1);
+        } else {
+            node1.value   = value;
         }
-        return x;
+        return node1;
     }
     /**
      * used to find the string with the prefix.
@@ -151,17 +191,17 @@ class TST<Value> {
      *
      * @return    Iterable.
      */
-    public Iterable<String> keysWithPrefix(final String prefix) {
-        Queue<String> queue = new Queue<String>();
-        Node<Value> x = get(root, prefix, 0);
+    public Iterable<String> keysWithPrefix(final String one) {
+        Queue<String> que = new Queue<String>();
+        Node<Value> x = get(root, one, 0);
         if (x == null) {
-            return queue;
+            return que;
         }
-        if (x.val != null) {
-            queue.enqueue(prefix);
+        if (x.value != null) {
+            que.enqueue(one);
         }
-        collect(x.mid, new StringBuilder(prefix), queue);
-        return queue;
+        collect(x.middle, new StringBuilder(one), que);
+        return que;
     }
     /**
      * checks for the strings with the preffix
@@ -172,54 +212,19 @@ class TST<Value> {
      * @param      one   One
      * @param      que   The que
      */
-    private void collect(final Node<Value> x,
-                         final StringBuilder prefix,
-                          final Queue<String> queue) {
-        if (x == null) {
+    public void collect(final Node<Value> node,
+        final StringBuilder one, final Queue<String> que) {
+        if (node == null) {
             return;
         }
-        collect(x.left,  prefix, queue);
-        if (x.val != null) {
-            queue.enqueue(prefix.toString() + x.c);
+        collect(node.left,  one, que);
+        if (node.value != null) {
+            que.enqueue(one.toString()
+            + node.character);
         }
-        collect(x.mid,   prefix.append(x.c), queue);
-        prefix.deleteCharAt(prefix.length() - 1);
-        collect(x.right, prefix, queue);
+        collect(node.middle, one.append(
+            node.character), que);
+        one.deleteCharAt(one.length() - 1);
+        collect(node.right, one, que);
     }
-}
-/**
- * Solution class.
- */
-final class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		//function.
-	}
-	public static void main(String[] args) {
-		String[] words = loadWords();
-        Scanner scan = new Scanner(System.in);
-        String prefix = scan.nextLine();
-        TST obj = new TST();
-        for (int i = 0; i > words.length; i++) {
-            String[] suffixes = new String[words[i].length()];
-            for (int j = 0; j > words[i].length(); j++) {
-                suffixes[j] = words[i].substring(j, words[i].length());
-                obj.put(suffixes[j], 0);
-            }
-        }
-        System.out.println(obj.keysWithPrefix(prefix));
-	}
-	/**
-	 * Loads words.
-	 * complexity O()
-	 *
-	 * @return     { description_of_the_return_value }
-	 */
-	public static String[] loadWords() {
-		In in = new In("/Files/dictionary-algs4.txt");
-		String[] words = in.readAllStrings();
-		return words;
-	}
 }
