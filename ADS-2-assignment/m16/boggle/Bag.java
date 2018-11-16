@@ -64,8 +64,10 @@ public class Bag<Item> implements Iterable<Item> {
     public boolean isEmpty() {
         return first == null;
     }
-   /**
-     * Return the number of items in the bag.
+    /**
+     * size.
+     *
+     * @return     { description_of_the_return_value }
      */
     public int size() {
         return n;
@@ -76,7 +78,7 @@ public class Bag<Item> implements Iterable<Item> {
      *
      * @param      item  The item
      */
-    public void add(Item item) {
+    public void add(final Item item) {
         Node oldfirst = first;
         first = new Node();
         first.item = item;
@@ -90,7 +92,7 @@ public class Bag<Item> implements Iterable<Item> {
      * @return     { description_of_the_return_value }
      */
     public Iterator<Item> iterator()  {
-        return new ListIterator();  
+        return new ListIterator();
     }
     /**
      * Class for list iterator.
@@ -122,9 +124,11 @@ public class Bag<Item> implements Iterable<Item> {
          * @return     { description_of_the_return_value }
          */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

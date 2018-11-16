@@ -1,11 +1,5 @@
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:70: Expected @return tag. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:79:21: Parameter item should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:93: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:125: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:127: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 5 errors.
 Starting audit...
 Audit done.
 Starting audit...
@@ -663,13 +657,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 4 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\StdRandom.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\StdRandom.java:13: Line has trailing spaces. [RegexpSingleline]
