@@ -36,6 +36,17 @@ public class BoggleSolver {
         }
         return words;
     }
+    /**
+     * depth first search method.
+     * complexity O(V + E)
+     *
+     * @param      board   The board
+     * @param      one     One
+     * @param      two     Two
+     * @param      words   The words
+     * @param      visit   The visit
+     * @param      prefix  The prefix
+     */
     public void dfs(final BoggleBoard board,
         final int one, final int two, final Set<String> words,
         final boolean[][] visit, final String prefix) {
@@ -82,6 +93,14 @@ public class BoggleSolver {
         }
         visit[one][two] = false;
     }
+    /**
+     * fnds the score of the word.
+     * complexity O(1)
+     *
+     * @param      one   One
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int scoreOf(final String one) {
         if (tst.contains(one)) {
             if (one.length() <  (2 + 1)) {
