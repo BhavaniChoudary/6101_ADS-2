@@ -3,20 +3,13 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:10:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'getAllValidWords' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'getAllValidWords' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:10:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:20:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'dfs' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'dfs' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:20:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:66:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:39:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'dfs' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'dfs' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:85:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleSolver.java:85:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 4 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\In.java:35: Line has trailing spaces. [RegexpSingleline]
@@ -159,7 +152,7 @@ Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\In.java:759: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\In.java:767:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 Audit done.
-Checkstyle ends with 142 errors.
+Checkstyle ends with 141 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:2: Missing a Javadoc comment. [JavadocType]
@@ -182,12 +175,11 @@ Starting audit...
 Audit done.
 Checkstyle ends with 18 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.
 Starting audit...
