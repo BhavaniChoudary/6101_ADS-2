@@ -151,31 +151,12 @@ Audit done.
 Checkstyle ends with 142 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:6: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:7:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:8:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:10:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:15:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:15:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:18:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:18:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:21:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'peek' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'peek' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:21:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:24:5: Class 'Queue' looks like designed for extension (can be subclassed), but the method 'enqueue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Queue' final or making the method 'enqueue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:24:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Queue.java:74: Missing a Javadoc comment. [JavadocType]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...

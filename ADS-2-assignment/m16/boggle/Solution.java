@@ -1,23 +1,22 @@
-import java.util.Arrays;
-
 /**
  * Class for solution.
  */
-public class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		// empty constructor
-	}
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        // empty constructor
+    }
 
-	/**
-	 * Main method.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(final String[] args) {
-		String caseType = StdIn.readLine();
+    /**
+     * Main method.
+     * complexity O(V + E) v is the
+     * no of nodes and E is the number of adacent vertices.
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        String caseType = StdIn.readLine();
         if (!caseType.equals("Score")) {
             System.out.println("board is null");
             return;
@@ -59,4 +58,3 @@ public class Solution {
         }
     }
 }
-

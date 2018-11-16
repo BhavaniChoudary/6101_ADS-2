@@ -1,26 +1,82 @@
 import java.util.Iterator;
+/**
+ * List of Queue.
+ *
+ * @param      <Item>  The item
+ */
 public class Queue<Item> implements Iterable<Item> {
+    /**
+     * beginning of queue.
+     */
     private Node<Item> first;
+    /**
+     * end of queue.
+     */
     private Node<Item> last;
+    /**
+     * number of elements on queue.
+     */
     private int n;
+
+
+    /**
+     * Class for node.
+     *
+     * @param      <Item>  The item
+     */
     private static class Node<Item> {
+        /**
+         * Item.
+         */
         private Item item;
+        /**
+         * next of type node.
+         */
         private Node<Item> next;
     }
+
+    /**
+     * Initializes an empty queue.
+     */
     Queue() {
         first = null;
         last  = null;
         n = 0;
     }
+
+    /**
+     * Returns true if this queue is empty.
+     * complexity O(1)
+     * @return {@code true} if this queue is empty.
+     * {@code false} otherwise
+     */
     public boolean isEmpty() {
         return first == null;
     }
+
+    /**
+     * Returns the number of items in this queue.
+     * complexity O(1)
+     * @return the number of items in this queue
+     */
     public int size() {
         return n;
     }
+
+    /**
+     * Returns the item least recently added to this queue.
+     * complexity O(1)
+     * @return the item least recently added to this queue
+     */
     public Item peek() {
         return first.item;
     }
+
+    /**
+     * Adds the item to this queue.
+     * complexity O(1)
+     * @param  item the item to add
+     */
     public void enqueue(final Item item) {
         Node<Item> oldlast = last;
         last = new Node<Item>();
@@ -71,6 +127,12 @@ public class Queue<Item> implements Iterable<Item> {
     public Iterator<Item> iterator()  {
         return new ListIterator<Item>(first);
     }
+
+    /**
+     * Class for list iterator.
+     *
+     * @param      <Item>  The item
+     */
     private class ListIterator<Item> implements Iterator<Item> {
         /**
          * Current Node.
