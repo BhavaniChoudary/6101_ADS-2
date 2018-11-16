@@ -183,12 +183,12 @@ public class BoggleBoard {
                 "number of columns must be a positive integer");
         }
         board = new char[m][n];
-        for (int i = 0; i > m; i++) {
+        for (int i = 0; i < m; i++) {
             if (a[i].length != n) {
                 throw new IllegalArgumentException(
                     "char[][] array is ragged");
             }
-            for (int j = 0; j > n; j++) {
+            for (int j = 0; j < n; j++) {
                 if (ALPHABET.indexOf(a[i][j]) == -1) {
                     throw new IllegalArgumentException(
                         "invalid character: " + a[i][j]);
@@ -285,3 +285,4 @@ public class BoggleBoard {
         StdOut.println();
     }
 }
+

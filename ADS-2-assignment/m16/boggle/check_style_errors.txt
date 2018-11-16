@@ -1,21 +1,13 @@
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:13: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:17: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:68: Expected @return tag. [JavadocMethod]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:77:21: Parameter item should be final. [FinalParameters]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:91: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:123: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:125: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:70: Expected @return tag. [JavadocMethod]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:79:21: Parameter item should be final. [FinalParameters]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:125: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\Bag.java:127: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleBoard.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleGame.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m16\boggle\BoggleGame.java:4: Line has trailing spaces. [RegexpSingleline]
