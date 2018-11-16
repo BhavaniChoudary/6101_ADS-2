@@ -1,3 +1,8 @@
+/**
+ * Class for tst.
+ *
+ * @param      <Value>  The value
+ */
 class TST<Value> {
     /**
      * int variable.
