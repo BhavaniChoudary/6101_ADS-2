@@ -88,10 +88,10 @@ public class Solution {
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
-		String[] arra1 = toReadFile(file);
-		int len = arra1.length;
+		String[] arr1 = toReadFile(file);
+		int len = arr1.length;
 		for (int i = 0; i < len; i++) {
-			String word = arra1[i].toLowerCase();
+			String word = arr1[i].toLowerCase();
 			if (st.contains(word )) {
 				st.put(word , st.get(word ) + 1);
 			} else {
@@ -103,9 +103,12 @@ public class Solution {
 }
 
 class T9 {
-
+	TST t = new TST();
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+		for (String str : st.keys()) {
+			t.put(str, st.get(str));
+		}
 	}
 
 	// get all the prefixes that match with given prefix.
