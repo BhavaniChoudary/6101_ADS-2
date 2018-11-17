@@ -11,6 +11,7 @@ public final class Solution {
     }
     /**
      * Main method.
+     * complexity O()
      *
      * @param      args  The arguments
      */
@@ -106,6 +107,8 @@ public final class Solution {
     }
     /**
      * Loads a dictionary.
+     * complexity O(n)
+     * n - length of the array.
      *
      * @param      file  The file
      *
@@ -136,7 +139,7 @@ class T9 {
     /**
      * var_description.
      */
-    TST t = new TST();
+    private TST<Integer> t;
     /**
      * Constructs the object.
      *
@@ -144,6 +147,7 @@ class T9 {
      */
     public T9(final BinarySearchST<String, Integer> st) {
         // your code goes here
+        t = new TST<Integer>();
         for (String str : st.keys()) {
             t.put(str, st.get(str));
         }
