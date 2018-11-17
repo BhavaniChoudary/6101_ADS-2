@@ -1,7 +1,19 @@
 import java.util.Scanner;
-
-
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+		//empty constructor.
+	}
+	/**
+	 * Main method.
+	 *
+	 * @param      args  The arguments
+	 */
 
 	// Don't modify this method.
 	public static void main(String[] args) {
@@ -78,13 +90,26 @@ public class Solution {
 
 		}
 	}
+	/**
+	 * to read files.
+	 *
+	 * @param      file  The file
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 
 	// Don't modify this method.
 	public static String[] toReadFile(String file) {
 		In in = new In(file);
 		return in.readAllStrings();
 	}
-
+	/**
+	 * Loads a dictionary.
+	 *
+	 * @param      file  The file
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
@@ -101,26 +126,54 @@ public class Solution {
 		return st;
 	}
 }
-
+/**
+ * Class for t9.
+ */
 class T9 {
 	TST t = new TST();
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      st    { parameter_description }
+	 */
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
 		for (String str : st.keys()) {
 			t.put(str, st.get(str));
 		}
 	}
+	/**
+	 * Gets all words.
+	 *
+	 * @param      prefix  The prefix
+	 *
+	 * @return     All words.
+	 */
 
 	// get all the prefixes that match with given prefix.
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
 		return t.keysWithPrefix(prefix);
 	}
-
+	/**
+	 * Iterator.
+	 *
+	 * @param      t9Signature  The t 9 signature
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
 		return null;
 	}
+	/**
+	 * Gets the suggestions.
+	 *
+	 * @param      words  The words
+	 * @param      k      { parameter_description }
+	 *
+	 * @return     The suggestions.
+	 */
 
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
