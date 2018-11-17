@@ -16,14 +16,15 @@ public final class Solution {
      */
 
     // Don't modify this method.
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
 
         switch (cases) {
         case "loadDictionary":
             // input000.txt and output000.txt
-            BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
+            BinarySearchST<String, Integer> hash = loadDictionary
+            ("/Files/t9.csv");
             while (scan.hasNextLine()) {
                 String key = scan.nextLine();
                 System.out.println(hash.get(key));
@@ -99,7 +100,7 @@ public final class Solution {
      */
 
     // Don't modify this method.
-    public static String[] toReadFile(String file) {
+    public static String[] toReadFile(final String file) {
         In in = new In(file);
         return in.readAllStrings();
     }
@@ -110,8 +111,9 @@ public final class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static BinarySearchST<String, Integer> loadDictionary(String file) {
-        BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
+    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
+        BinarySearchST<String, Integer>  st = new
+        BinarySearchST<String, Integer>();
         // your code goes here
         String[] arr1 = toReadFile(file);
         int len = arr1.length;
@@ -139,7 +141,7 @@ class T9 {
      *
      * @param      st    { parameter_description }
      */
-    public T9(BinarySearchST<String, Integer> st) {
+    public T9(final BinarySearchST<String,Integer> st) {
         // your code goes here
         for (String str : st.keys()) {
             t.put(str, st.get(str));
@@ -179,7 +181,8 @@ class T9 {
      */
 
     // return all possibilities(words), find top k with highest frequency.
-    public Iterable<String> getSuggestions(final Iterable<String> words,final int k) {
+    public Iterable<String> getSuggestions(final Iterable<String> words,
+        final int k) {
         // your code goes here
         return null;
     }
@@ -190,7 +193,7 @@ class T9 {
      * @param      k            { parameter_description }
      *
      * @return     { description_of_the_return_value }
-     */  
+     */
 
     // final output
     // Don't modify this method.
