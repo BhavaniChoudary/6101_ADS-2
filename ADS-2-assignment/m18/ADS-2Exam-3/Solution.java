@@ -117,8 +117,8 @@ public final class Solution {
         int len = arr1.length;
         for (int i = 0; i < len; i++) {
             String word = arr1[i].toLowerCase();
-            if (st.contains(word )) {
-                st.put(word ,st.get(word) + 1);
+            if (st.contains(word)) {
+                st.put(word, st.get(word) + 1);
             } else {
                 st.put(word, 1);
             }
