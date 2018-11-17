@@ -78,6 +78,13 @@ public class Solution {
 
 		}
 	}
+
+	// Don't modify this method.
+	public static String[] toReadFile(String file) {
+		In in = new In(file);
+		return in.readAllStrings();
+	}
+
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
@@ -93,18 +100,6 @@ public class Solution {
 		}
 		return st;
 	}
-	// Don't modify this method.
-	public static String[] toReadFile(String file) {
-		In in = new In(file);
-		return in.readAllStrings();
-	}
-	
-	// public static BinarySearchST<String, Integer> loadDictionary(String file) {
-	// 	BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
-	// 	// your code goes here
-	// 	return st;
-	// }
-
 }
 
 class T9 {
