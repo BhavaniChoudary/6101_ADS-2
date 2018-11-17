@@ -375,9 +375,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] C:\6101_ADS-2\ADS-2-assignment\m18\ADS-2Exam-3\Solution.java:149:5: Redundant 'public' modifier. [RedundantModifier]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m18\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\6101_ADS-2\ADS-2-assignment\m18\ADS-2Exam-3\TST.java:46: Line is longer than 80 characters (found 84). [LineLength]
