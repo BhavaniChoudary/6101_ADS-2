@@ -38,6 +38,7 @@ class Percolation {
     }
     /**
      * Searches for the first match.
+     * complexity in average case is 1.
      *
      * @param      i     { parameter_description }
      * @param      j     { parameter_description }
@@ -49,6 +50,7 @@ class Percolation {
     }
     /**
      * Links open sites.
+     * complexity in average case is 1.
      *
      * @param      row   The row
      * @param      col   The col
@@ -60,6 +62,7 @@ class Percolation {
     }
     /**
      * open function_description.
+     * complexity in average case is 1.
      *
      * @param      row   The row
      * @param      col   The col
@@ -95,6 +98,7 @@ class Percolation {
     }
     /**
      * Determines if open.
+     * complexity in average case is 1.
      *
      * @param      row   The row
      * @param      col   The col
@@ -114,6 +118,7 @@ class Percolation {
     }
     /**
      * percolates function_description.
+     * complexity in average case is 1.
      *
      * @return     { description_of_the_return_value }
      */

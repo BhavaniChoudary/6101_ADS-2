@@ -32,6 +32,7 @@ public class Graph {
     /**
      *
      *the method to return vertices.
+     *complexity is O(1).
      * @return vertices.
      */
     public int vertices() {
@@ -39,6 +40,7 @@ public class Graph {
     }
     /**
      *the method is to return edges.
+     *complexity is O(1).
      *
      * @return  edges.
      */
@@ -47,6 +49,7 @@ public class Graph {
     }
     /**
      * adds an edge.
+     * complexity is O(1).
      *
      * @param      v  vertexOne
      * @param      w  vertexTwo
@@ -81,6 +84,7 @@ public class Graph {
 
     /**
      * return list of neighbors of v.
+     * complexity is O(1).
      *
      * @param      v  vertex
      *
@@ -123,6 +127,7 @@ public class Graph {
 
         /**
          * Determines if it has next.
+         * complexity is O(N).
          *
          * @return     True if has next, False otherwise.
          */
@@ -138,7 +143,7 @@ public class Graph {
 
         /**
          * next.
-         *
+         * complexity is O(1).
          * @return     { description_of_the_return_value }
          */
         public Integer next() {
@@ -149,7 +154,8 @@ public class Graph {
         }
 
         /**
-         * remove.
+         * removes.
+         * complexity is O(1).
          */
         public void remove()  {
             throw new UnsupportedOperationException();
@@ -157,6 +163,7 @@ public class Graph {
     }
     /**
      * Determines if it has edge.
+     * complexity is O(N).
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
@@ -168,6 +175,7 @@ public class Graph {
     }
     /**
      *string representation of Graph - takes quadratic time.
+     * complexity is O(N^2).
      *
      * @return     String representation of the object.
      */

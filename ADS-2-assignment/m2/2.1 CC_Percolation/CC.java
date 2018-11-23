@@ -36,6 +36,7 @@ public class CC {
     }
     /**
      * dfs of graph.
+     * complexity is O(N).
      *
      * @param      graph  The graph
      * @param      v      { parameter_description }
@@ -53,6 +54,7 @@ public class CC {
     /**
      * Returns the component id of the connected
      * component containing vertex.
+     * complexity in average case is 1.
      *
      * @param      v     { parameter_description }
      *
@@ -64,6 +66,7 @@ public class CC {
     }
     /**
      * size function_description.
+     * complexity in average case is 1.
      *
      * @param      v     { parameter_description }
      *
@@ -75,6 +78,7 @@ public class CC {
     }
     /**
      * count function_description.
+     * complexity in average case is 1.
      *
      * @return     { description_of_the_return_value }
      */
@@ -83,6 +87,7 @@ public class CC {
     }
     /**
      * returns true if vertices are in the same connected components.
+     * complexity in average case is 1.
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
@@ -96,6 +101,7 @@ public class CC {
     }
     /**
      * returns true is vertices are in the same connected components.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
@@ -109,7 +115,7 @@ public class CC {
         return id(v) == id(w);
     }
     /**
-     * function_description.
+     * validating.
      *
      * @param      v     { parameter_description }
      */
