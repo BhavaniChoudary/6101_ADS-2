@@ -11,6 +11,7 @@ final class Solution {
     }
     /**
      * main function_description.
+     * complexity for main method is O(N)
      *
      * @param      args  The arguments
      */

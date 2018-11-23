@@ -36,6 +36,7 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**
      * Determines if empty.
+     * complexity is O(1).
      *
      * @return     True if empty, False otherwise.
      */
@@ -43,7 +44,8 @@ public class Bag<Item> implements Iterable<Item> {
         return first == null;
     }
     /**
-     * function_description.
+     * size.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -52,6 +54,7 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**
      * adds an item.
+     * complexity is O(1).
      *
      * @param      item  The item
      */
@@ -64,6 +67,7 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**
      * Iterator.
+     * complexity is O(N).
      *
      * @return     { description_of_the_return_value }
      */
@@ -80,6 +84,7 @@ public class Bag<Item> implements Iterable<Item> {
         private Node current = first;
         /**
          * Determines if it has next.
+         * complexity is O(1).
          *
          * @return     True if has next, False otherwise.
          */
@@ -87,13 +92,15 @@ public class Bag<Item> implements Iterable<Item> {
             return current != null;
         }
         /**
-         * remove function_description.
+         * removes.
+         * complexity is O(1).
          */
         public void remove() {
             throw new UnsupportedOperationException();
         }
         /**
          * next function_description.
+         * complexity is O(1).
          *
          * @return     { description_of_the_return_value }
          */

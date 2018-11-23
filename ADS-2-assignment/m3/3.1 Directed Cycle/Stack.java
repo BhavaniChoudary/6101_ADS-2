@@ -36,6 +36,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**
      * Determines if empty.
+     * complexity is O(1).
      *
      * @return     True if empty, False otherwise.
      */
@@ -44,6 +45,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**
      * size function_description.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -51,7 +53,8 @@ public class Stack<Item> implements Iterable<Item> {
         return n;
     }
     /**
-     * push to stack function_description.
+     * push to stack.
+     * complexity is O(1).
      *
      * @param      item  The item
      */
@@ -63,7 +66,8 @@ public class Stack<Item> implements Iterable<Item> {
         n++;
     }
     /**
-     * pop to stack function_description.
+     * pop to stack.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -78,6 +82,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**
      * returns the item recently added to stack.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -89,6 +94,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**
      * Returns a string representation of the object.
+     * complexity is O(n).
      *
      * @return     String representation of the object.
      */
@@ -101,6 +107,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**
      * iterator.
+     * complexity is O(N).
      *
      * @return     { description_of_the_return_value }
      */
@@ -117,6 +124,7 @@ public class Stack<Item> implements Iterable<Item> {
         private Node current = first;
         /**
          * Determines if it has next.
+         * complexity is O(1).
          *
          * @return     True if has next, False otherwise.
          */
@@ -125,12 +133,14 @@ public class Stack<Item> implements Iterable<Item> {
         }
         /**
          * remove function_description.
+         * complexity is O(1).
          */
         public void remove() {
             throw new UnsupportedOperationException();
         }
         /**
          * next function_description.
+         * complexity is O(1).
          *
          * @return     { description_of_the_return_value }
          */

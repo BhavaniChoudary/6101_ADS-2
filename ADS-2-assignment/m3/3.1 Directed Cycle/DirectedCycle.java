@@ -62,6 +62,7 @@ public class DirectedCycle {
     }
     /**
      * Determines if it has cycle.
+     * complexity is O(1).
      *
      * @return     True if has cycle, False otherwise.
      */
@@ -70,6 +71,7 @@ public class DirectedCycle {
     }
     /**
      * Iterator.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
