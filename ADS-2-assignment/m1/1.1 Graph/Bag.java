@@ -35,7 +35,7 @@ public class Bag<Item> implements Iterable<Item> {
     */
     private class Node {
         /**
-         *the variable to store item value
+         *the variable to store item value.
          */
         private Item item;
         /**
@@ -54,7 +54,6 @@ public class Bag<Item> implements Iterable<Item> {
     /**
       * Is the BAG empty?
       * complexity O(1).
-      * 
       * @return true if it is empty.
       */
     public boolean isEmpty() {
