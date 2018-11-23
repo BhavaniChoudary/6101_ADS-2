@@ -63,6 +63,7 @@ public class Digraph {
     }
     /**
      * vertex.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -71,6 +72,7 @@ public class Digraph {
     }
     /**
      * edge.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -79,6 +81,7 @@ public class Digraph {
     }
     /**
      * validate vertex.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      */
@@ -90,6 +93,7 @@ public class Digraph {
     }
     /**
      * Adds an edge.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
@@ -102,7 +106,8 @@ public class Digraph {
         edgee++;
     }
     /**
-     * iterator.
+     * Iterator.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      *
@@ -114,6 +119,7 @@ public class Digraph {
     }
     /**
      * outdegree.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      *
@@ -125,6 +131,7 @@ public class Digraph {
     }
     /**
      * indegree.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      *
@@ -136,6 +143,7 @@ public class Digraph {
     }
     /**
      * returns the reverse of graph.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -150,6 +158,7 @@ public class Digraph {
     }
     /**
      * Returns a string representation of the object.
+     * complexity is O(N^2).
      *
      * @return     String representation of the object.
      */

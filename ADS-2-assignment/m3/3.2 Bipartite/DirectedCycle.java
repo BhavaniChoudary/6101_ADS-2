@@ -39,6 +39,8 @@ public class DirectedCycle {
     }
     /**
      * dfs.
+     * complexity is O(e).
+     * e refers to no.of edges
      *
      * @param      g     { parameter_description }
      * @param      v     { parameter_description }
@@ -67,6 +69,7 @@ public class DirectedCycle {
     }
     /**
      * Determines if it has cycle.
+     * complexity is O(1).
      *
      * @return     True if has cycle, False otherwise.
      */
@@ -75,6 +78,7 @@ public class DirectedCycle {
     }
     /**
      * Iterator.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -105,6 +109,7 @@ public class DirectedCycle {
     }
     /**
      * bipartite.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */

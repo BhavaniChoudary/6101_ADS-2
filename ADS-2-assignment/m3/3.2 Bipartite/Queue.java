@@ -38,6 +38,7 @@ public class Queue<Item> {
     }
     /**
      * Determines if empty.
+     * complexity is O(1).
      *
      * @return     True if empty, False otherwise.
      */
@@ -46,6 +47,7 @@ public class Queue<Item> {
     }
     /**
      * size.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -54,6 +56,7 @@ public class Queue<Item> {
     }
     /**
      * peek.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */
@@ -65,6 +68,7 @@ public class Queue<Item> {
     }
     /**
      * enqueue.
+     * complexity is O(1).
      *
      * @param      item  The item
      */
@@ -82,6 +86,7 @@ public class Queue<Item> {
     }
     /**
      * dequeue.
+     * complexity is O(1).
      *
      * @return     { description_of_the_return_value }
      */

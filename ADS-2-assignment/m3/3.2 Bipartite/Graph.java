@@ -16,6 +16,8 @@ public class Graph {
     private Bag<Integer>[] adj;
     /**
      * Constructs the object.
+     * complexity is O(E).
+     * E is the edges.
      *
      * @param      v     { parameter_description }
      */
@@ -49,6 +51,7 @@ public class Graph {
     }
     /**
      * Adds an edge.
+     * complexity is O(1).
      *
      * @param      v     { parameter_description }
      * @param      w     { parameter_description }
