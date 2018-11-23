@@ -273,6 +273,7 @@ final class Solution {
     }
     /**
      * main method for the program.
+     * time complexity for main is N.
      *
      * @param      args  The arguments
      */
