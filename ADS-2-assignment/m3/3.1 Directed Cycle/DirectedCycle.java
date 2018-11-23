@@ -35,6 +35,8 @@ public class DirectedCycle {
     }
     /**
      * dfs function_description.
+     * complexity is O(e).
+     * e refers to no.of edges
      *
      * @param      g     { parameter_description }
      * @param      v     { parameter_description }
