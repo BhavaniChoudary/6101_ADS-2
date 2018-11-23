@@ -1,44 +1,265 @@
 import java.util.Scanner;
 /**
- * Interface for graph.
+ * Class for list representation of graph.
  */
-interface Graph {
+class ListGraph {
     /**
-     * v1 function_description.
-     *
-     * @return     { description_of_the_return_value }
+     * intializing the vertices variable.
      */
-    int v1();
+    private int node;
     /**
-     * e1 function_description.
-     *
-     * @return     { description_of_the_return_value }
+     * intializing the edge variable.
      */
-    int e1();
+    private int edge;
     /**
-     * Adds an edge.
-     *
-     * @param      v     { parameter_description }
-     * @param      w     { parameter_description }
+     * intializing the vertices size variable.
      */
-    void addEdge(int v, int w);
+    private int ncount;
     /**
-     * adjacent function_description.
-     *
-     * @param      v     { parameter_description }
-     *
-     * @return     { description_of_the_return_value }
+     * intializing the edges size variable.
      */
-    Iterable<Integer> adj(int v);
+    private int ecount;
     /**
-     * Determines if it has edge.
-     *
-     * @param      v     { parameter_description }
-     * @param      w     { parameter_description }
-     *
-     * @return     True if has edge, False otherwise.
+     * intializing the string array for vertices.
      */
-    boolean hasEdge(int v, int w);
+    private String[] tokens;
+    /**
+     * intializing bag array.
+     */
+    private Bag<Integer>[] adjacent;
+    /**
+     * Constructs the object.
+     *
+     * @param      scan  The scan
+     */
+    ListGraph(final Scanner scan) {
+        node = Integer.parseInt(scan.nextLine());
+        edge = Integer.parseInt(scan.nextLine());
+        tokens = scan.nextLine().split(",");
+        adjacent = new Bag[node];
+        for (int i = 0; i < node; i++) {
+            adjacent[i] = new Bag();
+        }
+        for (int j = 0; j < edge; j++) {
+            String[] items = scan.nextLine().split(" ");
+            addEdge(Integer.parseInt(items[0]),
+                    Integer.parseInt(items[1]));
+        }
+    }
+    /**
+     *the method is to add an edge between two vertices.
+     * complexity O(E).
+     * E denotes the number of edges we have in graph.
+     * @param      one  The vertex one
+     * @param      two  The vertex two
+     */
+    public void addEdge(final int one, final int two) {
+        if (one == two) {
+            return;
+        }
+        if (hasEdge(one, two)) {
+            ecount++;
+        }
+        adjacent[one].add(two);
+        adjacent[two].add(one);
+    }
+    /**
+     *returns the edges of graph.
+     *
+     * @return edges of graph
+     */
+    public int getEdges() {
+        return ecount;
+    }
+    /**
+     *returns the vertices of graph.
+     *
+     * @return vertices of graph
+     */
+    public int getNode() {
+        return ncount;
+    }
+    /**
+    *the method is to return the adjacent vertices in the bag.
+    * complexity O(1).
+    * @param      one  The vertex
+    *
+    * @return  iterator.
+    */
+    public Iterable<Integer> adjacent(final int one) {
+        return adjacent[one];
+    }
+    /**
+     * string representation of the graph in form of list.
+     * complexity O(N^2).
+     * @return     string representation
+     */
+    public String toPrint() {
+        String str = node + " vertices, "
+                     + ecount + " edges" + "\n";
+        if (ecount > 0) {
+            int k = 0;
+            for (k = 0; k < node - 1; k++) {
+                str += tokens[k] + ": ";
+                for (int in : adjacent[k]) {
+                    str += tokens[in] + " ";
+                }
+                str += "\n";
+            }
+            str += tokens[k] + ": ";
+            for (int in : adjacent[k]) {
+                str += tokens[in] + " ";
+            }
+        } else {
+            str += "No edges";
+            return str;
+        }
+        return str;
+    }
+    /**
+    *the method is check whether there is a.
+    *connection between two given vertices.
+    *complexity O(E).
+    *E is the number of edges in graph.
+    *
+    * @param      one  The vertex one
+    * @param      two  The vertex two
+    *
+    * @return     True if has edge, False otherwise.
+    */
+    public boolean hasEdge(final int one, final int two) {
+        for (int in : adjacent(one)) {
+            if (in == two) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+/**
+ * Class for matrix graph.
+ */
+class MatrixGraph {
+    /**
+     * intializing the vertices variable.
+     */
+    private int node;
+    /**
+     * intializing the edge variable.
+     */
+    private int edge;
+    /**
+     * intializing the vertices size variable.
+     */
+    private int ncount;
+    /**
+     * intializing the edges size variable.
+     */
+    private int ecount;
+    /**
+     * intializing the string array for vertices.
+     */
+    private String[] tokens;
+    /**
+     * intializing the 2d array for edges.
+     */
+    private int[][] adjacent;
+    /**
+     * Constructs the object.
+     *
+     * @param      scan  The scan
+     */
+    MatrixGraph(final Scanner scan) {
+        node = Integer.parseInt(scan.nextLine());
+        edge = Integer.parseInt(scan.nextLine());
+        tokens = scan.nextLine().split(",");
+        adjacent = new int[node][node];
+        for (int i = 0; i < node; i++) {
+            for (int j = 0; j < node; j++) {
+                adjacent[i][j] = 0;
+            }
+        }
+        for (int j = 0; j < edge; j++) {
+            String[] items = scan.nextLine().split(" ");
+            addEdge(Integer.parseInt(items[0]),
+                    Integer.parseInt(items[1]));
+        }
+    }
+    /**
+     *the method is to add an edge between.
+     * two vertices.
+     * complexity O(1).
+     * @param      one  The vertex one
+     * @param      two  The vertex two
+      * complexity is O(1) as we are just mking the index
+      * as 1.
+     */
+    public void addEdge(final int one, final int two) {
+        if (one == two) {
+            return;
+        }
+        if (hasEdge(one, two)) {
+            ecount++;
+        }
+        adjacent[one][two] = 1;
+        adjacent[two][one] = 1;
+    }
+    /**
+    *the method is check whether there is a.
+    *connection between two given vertices.
+    *complexity O(1).
+    * @param      one  The vertex one
+    * @param      two  The vertex two
+    *
+    * @return     True if has edge, False otherwise.
+    */
+    public boolean hasEdge(final int one, final int two) {
+        return adjacent[one][two] != 1
+               && adjacent[two][one] != 1;
+    }
+    /**
+     *returns the edges of graph.
+     *
+     * @return edges of graph
+     */
+    public int getEdges() {
+        return ecount;
+    }
+    /**
+     *returns the vertices of graph.
+     *
+     * @return vertices of graph
+     */
+    public int getNode() {
+        return ncount;
+    }
+    /**
+     *the method is to print the string format.
+     *of graph.
+     *complexity O(N^2).
+     *N is the vertices here.
+     *@return string representation.
+     */
+    public String toPrint() {
+        String str = node + " vertices, "
+                     + ecount + " edges" + "\n";
+        if (ecount > 0) {
+            int k = 0;
+            //str += node + " vertices, "
+            //+ ecount + " edges" + "\n";
+            for (k = 0; k < adjacent.length; k++) {
+                for (int in = 0; in
+                        < adjacent[0].length; in++) {
+                    str += adjacent[k][in] + " ";
+                }
+                str += "\n";
+            }
+        } else {
+            str += "No edges";
+            return str;
+        }
+        return str;
+    }
 }
 /**
  * class Solution.
@@ -51,73 +272,24 @@ final class Solution {
         //function.
     }
     /**
-     * main function_description.
+     * main method for the program.
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String type = sc.nextLine();
-        String[] nodes = new String[2];
-        int v, e1;
-        if (type.equals("List")) {
-
-            v = Integer.parseInt(sc.nextLine());
-            e1 = Integer.parseInt(sc.nextLine());
-            String[] input = sc.nextLine().split(",");
-
-            GraphList g = new GraphList(v);
-            for (int i = 0; i < e1; i++) {
-                String[] add = sc.nextLine().split(" ");
-                int a = Integer.parseInt(add[0]);
-                int b = Integer.parseInt(add[1]);
-                if (a != b && !g.hasEdge(a, b)) {
-                    g.addEdge(a, b);
-                }
-            }
-            System.out.println(g.display(input));
-        } else if (type.equals("Matrix")) {
-            v = 0;
-            e1 = 0;
-            v = Integer.parseInt(sc.nextLine());
-            e1 = Integer.parseInt(sc.nextLine());
-
-            String[] line = sc.nextLine().split(",");
-            int[][] graph = new int[v][v];
-            int a, b;
-            while      (sc.hasNext()) {
-                nodes = sc.nextLine().split(" ");
-                a = Integer.parseInt(nodes[0]);
-                b = Integer.parseInt(nodes[1]);
-                if (a != b) {
-                    graph[a][b] = 1;
-
-                    if (graph[b][a] == 1) {
-                        e1--;
-                    } else {
-                        graph[b][a] = 1;
-                    }
-                }
-            }
-            if (v == 1) {
-                System.out.println(v + " vertices, " + (e1 - 1) + " edges");
-
-            } else {
-                System.out.println(v + " vertices, " + e1 + " edges");
-
-            }
-            if (v <= 1) {
-                System.out.println("No edges");
-            } else {
-                for (int[] each : graph) {
-                    for (int each2 : each) {
-                        System.out.print(each2 + " ");
-                    }
-                    System.out.println();
-                }
-            }
+        Scanner scan = new Scanner(System.in);
+        String lismat = scan.nextLine();
+        switch (lismat) {
+        case "List":
+            ListGraph lis = new ListGraph(scan);
+            System.out.println(lis.toPrint());
+            break;
+        case "Matrix":
+            MatrixGraph mat = new MatrixGraph(scan);
+            System.out.println(mat.toPrint());
+            break;
+        default:
+            break;
         }
     }
 }
-
-
