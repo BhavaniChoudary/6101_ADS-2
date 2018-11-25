@@ -1,84 +1,90 @@
-public class SAP {
-    private Digraph dg;
-    private BreadthFirstDirectedPaths[] bfs;
-
-    // constructor takes a digraph (not necessarily a DAG)
-    public SAP(Digraph G) {
-        this.dg = G;
-        bfs = new BreadthFirstDirectedPaths[this.dg.vertices()];
-        for(int i = 0; i < dg.vertices(); i++) {
-            bfs[i] = new BreadthFirstDirectedPaths(dg, i);
-        }
+import java.util.HashSet;
+/**
+ * Class for sap.
+ */
+class Sap {
+    /**
+     * thousand value.
+     */
+    private static final int NUMBER = 1000000;
+    /**
+     * initializing the diagraph object.
+     */
+    private Digraph graph;
+    /**
+     * int variable.
+     */
+    private int minimum;
+    /**
+     * int variable.
+     */
+    private int ancestor;
+    /**
+     * Constructs the object.
+     *
+     * @param      g     diagraph object.
+     */
+    Sap(final Digraph g) {
+        graph = new Digraph(g);
     }
-
-    // length of shortest ancestral path between v and w; -1 if no such path
-    public int length(final int v, final int w) {
-        int length = Integer.MAX_VALUE;
-        for (int i = 0; i < dg.vertices(); i++) {
-            if (bfs[v].hasPathTo(i) && bfs[w].hasPathTo(i)) {
-                int len = bfs[v].distTo(i) + bfs[w].distTo(i);
-                if (len <length) {
-                    length = len;
-                }
-            }
-        }
-        if (length != Integer.MAX_VALUE) {
-            return length;
-        } else {
+    /**
+     * finding the short distance between two vertices.
+     * complexity O(v) v is the nuber of vertices.
+     * @param      one   One
+     * @param      two   Two
+     *
+     * @return     the distance.
+     */
+    public int length(final int one, final int two) {
+        HashSet<Integer> first = new HashSet<Integer>();
+        first.add(one);
+        HashSet<Integer> second = new HashSet<Integer>();
+        second.add(two);
+        length(first, second);
+        if (ancestor == -1) {
             return -1;
+        } else {
+            return minimum;
         }
     }
-
-    // a common ancestor of v and w that participates in a shortest ancestral path; -1 if no such path
-    public int ancestor(int v, int w) {
-        int length = Integer.MAX_VALUE;
-        int ancestor = -1;
-        for (int i = 0; i < dg.vertices(); i++) {
-            if (bfs[v].hasPathTo(i) && bfs[w].hasPathTo(i)) {
-                int len = bfs[v].distTo(i) + bfs[w].distTo(i);
-                if (len < length) {
-                    length = len;
+    /**
+     * finding the short distance between two vertices.
+     * complexity O(v) v is the nuber of vertices.
+     * @param      one   One
+     * @param      two   Two
+     *
+     * @return     the distance.
+     */
+    public int length(final Iterable<Integer> one,
+        final Iterable<Integer> two) {
+        minimum = NUMBER;
+        ancestor = -1;
+        BreadthFirstDirectedPaths first = new
+        BreadthFirstDirectedPaths(graph, one);
+        BreadthFirstDirectedPaths second = new
+        BreadthFirstDirectedPaths(graph, two);
+        for (int i = 0; i < graph.v(); i++) {
+            if (first.hasPathTo(i) && second.hasPathTo(i)) {
+                int length = first.distTo(i)
+                + second.distTo(i);
+                if (length < minimum) {
+                    minimum = length;
                     ancestor = i;
                 }
             }
         }
-        return ancestor;
-
+        return minimum;
     }
-
-    // length of shortest ancestral path between any vertex in v and any vertex in w; -1 if no such path
-    public int length(Iterable<Integer> v, Iterable<Integer> w) {
-        int length = Integer.MAX_VALUE;
-        for (int i : v) {
-            for (int j : w) {
-                int l = length(i, j);
-                if (l != -1 && l < length) {
-                    length = l;
-                }
-            }
-        }
-        if (length != Integer.MAX_VALUE) {
-            return length;
-        } else {
-            return -1;
-        }
-    }
-
-    // a common ancestor that participates in shortest ancestral path; -1 if no such path
-    public int ancestor(Iterable<Integer> v, Iterable<Integer> w) {
-        int length = Integer.MAX_VALUE;
-        int ancestor = -1;
-
-        for (int i : v) {
-            for (int j : w) {
-                int len = length(i, j);
-                if (len != -1 && len < length) {
-                    length = len;
-                    ancestor = ancestor(i, j);
-                }
-            }
-        }
-
+    /**
+     * finding the ancestor of two vertices.
+     * complexity O(v) v is the nuber of vertices.
+     * @param      one   One
+     * @param      two   Two
+     *
+     * @return     the ancestor.
+     */
+    public int ancestor(final int one, final int two) {
+        length(one, two);
         return ancestor;
     }
 }
