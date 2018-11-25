@@ -232,4 +232,3 @@ class Kruskal {
         return totalweight;
     }
 }
-
